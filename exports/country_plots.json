@@ -1,0 +1,4729 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 400,
+  "height": 300,
+  "style": "cell",
+  "data": [
+    {
+      "name": "Select_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "Country"}],
+          "values": ["United Kingdom"]
+        }
+      ]
+    },
+    {"name": "selector001_store"},
+    {
+      "name": "data-515b756b94bf143562dcb49bf5778de5",
+      "values": [
+        {
+          "Country": "China",
+          "Date": "2020-01-22T00:00:00",
+          "Confirmed": 547,
+          "Deaths": 17,
+          "Recovered": 28,
+          "Active": 502
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-23T00:00:00",
+          "Confirmed": 639,
+          "Deaths": 18,
+          "Recovered": 30,
+          "Active": 591
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-24T00:00:00",
+          "Confirmed": 916,
+          "Deaths": 26,
+          "Recovered": 36,
+          "Active": 854
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-25T00:00:00",
+          "Confirmed": 1399,
+          "Deaths": 42,
+          "Recovered": 39,
+          "Active": 1318
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-26T00:00:00",
+          "Confirmed": 2062,
+          "Deaths": 56,
+          "Recovered": 49,
+          "Active": 1957
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-27T00:00:00",
+          "Confirmed": 2863,
+          "Deaths": 82,
+          "Recovered": 58,
+          "Active": 2723
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-28T00:00:00",
+          "Confirmed": 5494,
+          "Deaths": 131,
+          "Recovered": 101,
+          "Active": 5262
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-29T00:00:00",
+          "Confirmed": 6070,
+          "Deaths": 133,
+          "Recovered": 120,
+          "Active": 5817
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-30T00:00:00",
+          "Confirmed": 8124,
+          "Deaths": 171,
+          "Recovered": 135,
+          "Active": 7818
+        },
+        {
+          "Country": "China",
+          "Date": "2020-01-31T00:00:00",
+          "Confirmed": 9783,
+          "Deaths": 213,
+          "Recovered": 214,
+          "Active": 9356
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-01T00:00:00",
+          "Confirmed": 11871,
+          "Deaths": 259,
+          "Recovered": 275,
+          "Active": 11337
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-02T00:00:00",
+          "Confirmed": 16607,
+          "Deaths": 361,
+          "Recovered": 463,
+          "Active": 15783
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-03T00:00:00",
+          "Confirmed": 19693,
+          "Deaths": 425,
+          "Recovered": 614,
+          "Active": 18654
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-04T00:00:00",
+          "Confirmed": 23680,
+          "Deaths": 490,
+          "Recovered": 843,
+          "Active": 22347
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-05T00:00:00",
+          "Confirmed": 27409,
+          "Deaths": 562,
+          "Recovered": 1115,
+          "Active": 25732
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-06T00:00:00",
+          "Confirmed": 30553,
+          "Deaths": 632,
+          "Recovered": 1476,
+          "Active": 28445
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-07T00:00:00",
+          "Confirmed": 34075,
+          "Deaths": 717,
+          "Recovered": 1998,
+          "Active": 31360
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-08T00:00:00",
+          "Confirmed": 36778,
+          "Deaths": 804,
+          "Recovered": 2595,
+          "Active": 33379
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-09T00:00:00",
+          "Confirmed": 39790,
+          "Deaths": 904,
+          "Recovered": 3218,
+          "Active": 35668
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-10T00:00:00",
+          "Confirmed": 42306,
+          "Deaths": 1011,
+          "Recovered": 3917,
+          "Active": 37378
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-11T00:00:00",
+          "Confirmed": 44327,
+          "Deaths": 1111,
+          "Recovered": 4635,
+          "Active": 38581
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-12T00:00:00",
+          "Confirmed": 44699,
+          "Deaths": 1116,
+          "Recovered": 5079,
+          "Active": 38504
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-13T00:00:00",
+          "Confirmed": 59832,
+          "Deaths": 1368,
+          "Recovered": 6213,
+          "Active": 52251
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-14T00:00:00",
+          "Confirmed": 66292,
+          "Deaths": 1520,
+          "Recovered": 7973,
+          "Active": 56799
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-15T00:00:00",
+          "Confirmed": 68347,
+          "Deaths": 1662,
+          "Recovered": 9294,
+          "Active": 57391
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-16T00:00:00",
+          "Confirmed": 70446,
+          "Deaths": 1765,
+          "Recovered": 10748,
+          "Active": 57933
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-17T00:00:00",
+          "Confirmed": 72364,
+          "Deaths": 1863,
+          "Recovered": 12455,
+          "Active": 58046
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-18T00:00:00",
+          "Confirmed": 74139,
+          "Deaths": 2002,
+          "Recovered": 14199,
+          "Active": 57938
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 74546,
+          "Deaths": 2114,
+          "Recovered": 15952,
+          "Active": 56480
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 74999,
+          "Deaths": 2236,
+          "Recovered": 18002,
+          "Active": 54761
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 75472,
+          "Deaths": 2236,
+          "Recovered": 18693,
+          "Active": 54543
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 76922,
+          "Deaths": 2441,
+          "Recovered": 22687,
+          "Active": 51794
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 76938,
+          "Deaths": 2443,
+          "Recovered": 23170,
+          "Active": 51325
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 77152,
+          "Deaths": 2593,
+          "Recovered": 24990,
+          "Active": 49569
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 77660,
+          "Deaths": 2663,
+          "Recovered": 27650,
+          "Active": 47347
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 78065,
+          "Deaths": 2715,
+          "Recovered": 30053,
+          "Active": 45297
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 78498,
+          "Deaths": 2744,
+          "Recovered": 32898,
+          "Active": 42856
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 78824,
+          "Deaths": 2788,
+          "Recovered": 36291,
+          "Active": 39745
+        },
+        {
+          "Country": "China",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 79251,
+          "Deaths": 2835,
+          "Recovered": 39279,
+          "Active": 37137
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 79826,
+          "Deaths": 2870,
+          "Recovered": 42118,
+          "Active": 34838
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 80026,
+          "Deaths": 2912,
+          "Recovered": 44810,
+          "Active": 32304
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 80151,
+          "Deaths": 2945,
+          "Recovered": 47404,
+          "Active": 29802
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 80271,
+          "Deaths": 2981,
+          "Recovered": 49955,
+          "Active": 27335
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 80422,
+          "Deaths": 3013,
+          "Recovered": 52240,
+          "Active": 25169
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 80573,
+          "Deaths": 3042,
+          "Recovered": 53888,
+          "Active": 23643
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 80652,
+          "Deaths": 3070,
+          "Recovered": 55478,
+          "Active": 22104
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 80699,
+          "Deaths": 3097,
+          "Recovered": 57320,
+          "Active": 20282
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 80735,
+          "Deaths": 3120,
+          "Recovered": 58735,
+          "Active": 18880
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 80757,
+          "Deaths": 3136,
+          "Recovered": 60106,
+          "Active": 17515
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 80921,
+          "Deaths": 3161,
+          "Recovered": 61644,
+          "Active": 16116
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 80932,
+          "Deaths": 3172,
+          "Recovered": 62901,
+          "Active": 14859
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 80945,
+          "Deaths": 3180,
+          "Recovered": 64196,
+          "Active": 13569
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 80977,
+          "Deaths": 3193,
+          "Recovered": 65660,
+          "Active": 12124
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 81003,
+          "Deaths": 3203,
+          "Recovered": 67017,
+          "Active": 10783
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 81033,
+          "Deaths": 3217,
+          "Recovered": 67910,
+          "Active": 9906
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 81058,
+          "Deaths": 3230,
+          "Recovered": 68798,
+          "Active": 9030
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 81102,
+          "Deaths": 3241,
+          "Recovered": 69755,
+          "Active": 8106
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 81156,
+          "Deaths": 3249,
+          "Recovered": 70535,
+          "Active": 7372
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 81250,
+          "Deaths": 3253,
+          "Recovered": 71266,
+          "Active": 6731
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 81305,
+          "Deaths": 3259,
+          "Recovered": 71857,
+          "Active": 6189
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 81397,
+          "Deaths": 3265,
+          "Recovered": 72362,
+          "Active": 5770
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 81496,
+          "Deaths": 3274,
+          "Recovered": 72819,
+          "Active": 5403
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 81591,
+          "Deaths": 3281,
+          "Recovered": 73280,
+          "Active": 5030
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 81661,
+          "Deaths": 3285,
+          "Recovered": 73773,
+          "Active": 4603
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 81782,
+          "Deaths": 3291,
+          "Recovered": 74181,
+          "Active": 4310
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 81897,
+          "Deaths": 3296,
+          "Recovered": 74720,
+          "Active": 3881
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 81999,
+          "Deaths": 3299,
+          "Recovered": 75100,
+          "Active": 3600
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 82122,
+          "Deaths": 3304,
+          "Recovered": 75582,
+          "Active": 3236
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 82198,
+          "Deaths": 3308,
+          "Recovered": 75923,
+          "Active": 2967
+        },
+        {
+          "Country": "China",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 82279,
+          "Deaths": 3309,
+          "Recovered": 76206,
+          "Active": 2764
+        },
+        {
+          "Country": "China",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 82361,
+          "Deaths": 3316,
+          "Recovered": 76405,
+          "Active": 2640
+        },
+        {
+          "Country": "China",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 82432,
+          "Deaths": 3322,
+          "Recovered": 76565,
+          "Active": 2545
+        },
+        {
+          "Country": "China",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 82511,
+          "Deaths": 3326,
+          "Recovered": 76760,
+          "Active": 2425
+        },
+        {
+          "Country": "China",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 82543,
+          "Deaths": 3330,
+          "Recovered": 76946,
+          "Active": 2267
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-24T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-25T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-26T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-27T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-28T00:00:00",
+          "Confirmed": 4,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 4
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-29T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-30T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "France",
+          "Date": "2020-01-31T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-01T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-02T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-03T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-04T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-05T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-06T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-07T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-08T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 11
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-09T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 11
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-10T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 11
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-11T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 11
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-12T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 9
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-13T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 9
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-14T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 9
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-15T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-16T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-17T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-18T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 1,
+          "Recovered": 4,
+          "Active": 7
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 14,
+          "Deaths": 1,
+          "Recovered": 11,
+          "Active": 2
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 18,
+          "Deaths": 2,
+          "Recovered": 11,
+          "Active": 5
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 38,
+          "Deaths": 2,
+          "Recovered": 11,
+          "Active": 25
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 57,
+          "Deaths": 2,
+          "Recovered": 11,
+          "Active": 44
+        },
+        {
+          "Country": "France",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 100,
+          "Deaths": 2,
+          "Recovered": 12,
+          "Active": 86
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 130,
+          "Deaths": 2,
+          "Recovered": 12,
+          "Active": 116
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 191,
+          "Deaths": 3,
+          "Recovered": 12,
+          "Active": 176
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 204,
+          "Deaths": 4,
+          "Recovered": 12,
+          "Active": 188
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 285,
+          "Deaths": 4,
+          "Recovered": 12,
+          "Active": 269
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 377,
+          "Deaths": 6,
+          "Recovered": 12,
+          "Active": 359
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 653,
+          "Deaths": 9,
+          "Recovered": 12,
+          "Active": 632
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 949,
+          "Deaths": 11,
+          "Recovered": 12,
+          "Active": 926
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 1126,
+          "Deaths": 19,
+          "Recovered": 12,
+          "Active": 1095
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 1209,
+          "Deaths": 19,
+          "Recovered": 12,
+          "Active": 1178
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 1784,
+          "Deaths": 33,
+          "Recovered": 12,
+          "Active": 1739
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 2284,
+          "Deaths": 48,
+          "Recovered": 12,
+          "Active": 2224
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 2284,
+          "Deaths": 48,
+          "Recovered": 12,
+          "Active": 2224
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 3667,
+          "Deaths": 79,
+          "Recovered": 12,
+          "Active": 3576
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 4480,
+          "Deaths": 91,
+          "Recovered": 12,
+          "Active": 4377
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 4513,
+          "Deaths": 91,
+          "Recovered": 12,
+          "Active": 4410
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 6650,
+          "Deaths": 148,
+          "Recovered": 12,
+          "Active": 6490
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 7683,
+          "Deaths": 148,
+          "Recovered": 12,
+          "Active": 7523
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 9052,
+          "Deaths": 148,
+          "Recovered": 12,
+          "Active": 8892
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 10886,
+          "Deaths": 243,
+          "Recovered": 12,
+          "Active": 10631
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 12632,
+          "Deaths": 450,
+          "Recovered": 12,
+          "Active": 12170
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 14308,
+          "Deaths": 562,
+          "Recovered": 12,
+          "Active": 13734
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 16214,
+          "Deaths": 676,
+          "Recovered": 2201,
+          "Active": 13337
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 20123,
+          "Deaths": 862,
+          "Recovered": 2207,
+          "Active": 17054
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 22622,
+          "Deaths": 1102,
+          "Recovered": 3288,
+          "Active": 18232
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 25600,
+          "Deaths": 1333,
+          "Recovered": 3907,
+          "Active": 20360
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 29551,
+          "Deaths": 1698,
+          "Recovered": 4955,
+          "Active": 22898
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 33402,
+          "Deaths": 1997,
+          "Recovered": 5707,
+          "Active": 25698
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 38105,
+          "Deaths": 2317,
+          "Recovered": 5724,
+          "Active": 30064
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 40708,
+          "Deaths": 2611,
+          "Recovered": 7226,
+          "Active": 30871
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 45170,
+          "Deaths": 3030,
+          "Recovered": 7964,
+          "Active": 34176
+        },
+        {
+          "Country": "France",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 52827,
+          "Deaths": 3532,
+          "Recovered": 9513,
+          "Active": 39782
+        },
+        {
+          "Country": "France",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 57749,
+          "Deaths": 4043,
+          "Recovered": 11053,
+          "Active": 42653
+        },
+        {
+          "Country": "France",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 59929,
+          "Deaths": 5398,
+          "Recovered": 12548,
+          "Active": 41983
+        },
+        {
+          "Country": "France",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 65202,
+          "Deaths": 6520,
+          "Recovered": 14135,
+          "Active": 44547
+        },
+        {
+          "Country": "France",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 90848,
+          "Deaths": 7574,
+          "Recovered": 15572,
+          "Active": 67702
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-01-28T00:00:00",
+          "Confirmed": 4,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 4
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-01-29T00:00:00",
+          "Confirmed": 4,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 4
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-01-30T00:00:00",
+          "Confirmed": 4,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 4
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-01-31T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-01T00:00:00",
+          "Confirmed": 8,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 8
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-02T00:00:00",
+          "Confirmed": 10,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 10
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-03T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-04T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-05T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-06T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-07T00:00:00",
+          "Confirmed": 13,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 13
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-08T00:00:00",
+          "Confirmed": 13,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 13
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-09T00:00:00",
+          "Confirmed": 14,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 14
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-10T00:00:00",
+          "Confirmed": 14,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 14
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-11T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 16
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-12T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 16
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-13T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 15
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-14T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 15
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-15T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 15
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-16T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 15
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-17T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 15
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-18T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 12,
+          "Active": 4
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 12,
+          "Active": 4
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 12,
+          "Active": 4
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 14,
+          "Active": 2
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 14,
+          "Active": 2
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 14,
+          "Active": 2
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 16,
+          "Deaths": 0,
+          "Recovered": 14,
+          "Active": 2
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 17,
+          "Deaths": 0,
+          "Recovered": 14,
+          "Active": 3
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 27,
+          "Deaths": 0,
+          "Recovered": 15,
+          "Active": 12
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 46,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 30
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 48,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 32
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 79,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 63
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 130,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 114
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 159,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 143
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 196,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 180
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 262,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 246
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 482,
+          "Deaths": 0,
+          "Recovered": 16,
+          "Active": 466
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 670,
+          "Deaths": 0,
+          "Recovered": 17,
+          "Active": 653
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 799,
+          "Deaths": 0,
+          "Recovered": 18,
+          "Active": 781
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 1040,
+          "Deaths": 0,
+          "Recovered": 18,
+          "Active": 1022
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 1176,
+          "Deaths": 2,
+          "Recovered": 18,
+          "Active": 1156
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 1457,
+          "Deaths": 2,
+          "Recovered": 18,
+          "Active": 1437
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 1908,
+          "Deaths": 3,
+          "Recovered": 25,
+          "Active": 1880
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 2078,
+          "Deaths": 3,
+          "Recovered": 25,
+          "Active": 2050
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 3675,
+          "Deaths": 7,
+          "Recovered": 46,
+          "Active": 3622
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 4585,
+          "Deaths": 9,
+          "Recovered": 46,
+          "Active": 4530
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 5795,
+          "Deaths": 11,
+          "Recovered": 46,
+          "Active": 5738
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 7272,
+          "Deaths": 17,
+          "Recovered": 67,
+          "Active": 7188
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 9257,
+          "Deaths": 24,
+          "Recovered": 67,
+          "Active": 9166
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 12327,
+          "Deaths": 28,
+          "Recovered": 105,
+          "Active": 12194
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 15320,
+          "Deaths": 44,
+          "Recovered": 113,
+          "Active": 15163
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 19848,
+          "Deaths": 67,
+          "Recovered": 180,
+          "Active": 19601
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 22213,
+          "Deaths": 84,
+          "Recovered": 233,
+          "Active": 21896
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 24873,
+          "Deaths": 94,
+          "Recovered": 266,
+          "Active": 24513
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 29056,
+          "Deaths": 123,
+          "Recovered": 453,
+          "Active": 28480
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 32986,
+          "Deaths": 157,
+          "Recovered": 3243,
+          "Active": 29586
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 37323,
+          "Deaths": 206,
+          "Recovered": 3547,
+          "Active": 33570
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 43938,
+          "Deaths": 267,
+          "Recovered": 5673,
+          "Active": 37998
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 50871,
+          "Deaths": 342,
+          "Recovered": 6658,
+          "Active": 43871
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 57695,
+          "Deaths": 433,
+          "Recovered": 8481,
+          "Active": 48781
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 62095,
+          "Deaths": 533,
+          "Recovered": 9211,
+          "Active": 52351
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 66885,
+          "Deaths": 645,
+          "Recovered": 13500,
+          "Active": 52740
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 71808,
+          "Deaths": 775,
+          "Recovered": 16100,
+          "Active": 54933
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 77872,
+          "Deaths": 920,
+          "Recovered": 18700,
+          "Active": 58252
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 84794,
+          "Deaths": 1107,
+          "Recovered": 22440,
+          "Active": 61247
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 91159,
+          "Deaths": 1275,
+          "Recovered": 24575,
+          "Active": 65309
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 96092,
+          "Deaths": 1444,
+          "Recovered": 26400,
+          "Active": 68248
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 2,
+          "Recovered": 0,
+          "Active": 0
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 2,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 18,
+          "Deaths": 4,
+          "Recovered": 0,
+          "Active": 14
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 28,
+          "Deaths": 5,
+          "Recovered": 0,
+          "Active": 23
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 43,
+          "Deaths": 8,
+          "Recovered": 0,
+          "Active": 35
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 61,
+          "Deaths": 12,
+          "Recovered": 0,
+          "Active": 49
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 95,
+          "Deaths": 16,
+          "Recovered": 0,
+          "Active": 79
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 139,
+          "Deaths": 19,
+          "Recovered": 49,
+          "Active": 71
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 245,
+          "Deaths": 26,
+          "Recovered": 49,
+          "Active": 170
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 388,
+          "Deaths": 34,
+          "Recovered": 73,
+          "Active": 281
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 593,
+          "Deaths": 43,
+          "Recovered": 123,
+          "Active": 427
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 978,
+          "Deaths": 54,
+          "Recovered": 175,
+          "Active": 749
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 1501,
+          "Deaths": 66,
+          "Recovered": 291,
+          "Active": 1144
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 2336,
+          "Deaths": 77,
+          "Recovered": 291,
+          "Active": 1968
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 2922,
+          "Deaths": 92,
+          "Recovered": 552,
+          "Active": 2278
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 3513,
+          "Deaths": 107,
+          "Recovered": 739,
+          "Active": 2667
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 4747,
+          "Deaths": 124,
+          "Recovered": 913,
+          "Active": 3710
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 5823,
+          "Deaths": 145,
+          "Recovered": 1669,
+          "Active": 4009
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 6566,
+          "Deaths": 194,
+          "Recovered": 2134,
+          "Active": 4238
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 7161,
+          "Deaths": 237,
+          "Recovered": 2394,
+          "Active": 4530
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 8042,
+          "Deaths": 291,
+          "Recovered": 2731,
+          "Active": 5020
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 9000,
+          "Deaths": 354,
+          "Recovered": 2959,
+          "Active": 5687
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 10075,
+          "Deaths": 429,
+          "Recovered": 2959,
+          "Active": 6687
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 11364,
+          "Deaths": 514,
+          "Recovered": 2959,
+          "Active": 7891
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 12729,
+          "Deaths": 611,
+          "Recovered": 2959,
+          "Active": 9159
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 13938,
+          "Deaths": 724,
+          "Recovered": 4590,
+          "Active": 8624
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 14991,
+          "Deaths": 853,
+          "Recovered": 4590,
+          "Active": 9548
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 16169,
+          "Deaths": 988,
+          "Recovered": 5389,
+          "Active": 9792
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 17361,
+          "Deaths": 1135,
+          "Recovered": 5389,
+          "Active": 10837
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 18407,
+          "Deaths": 1284,
+          "Recovered": 5710,
+          "Active": 11413
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 19644,
+          "Deaths": 1433,
+          "Recovered": 6745,
+          "Active": 11466
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 20610,
+          "Deaths": 1556,
+          "Recovered": 7635,
+          "Active": 11419
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 21638,
+          "Deaths": 1685,
+          "Recovered": 7635,
+          "Active": 12318
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 23049,
+          "Deaths": 1812,
+          "Recovered": 8376,
+          "Active": 12861
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 24811,
+          "Deaths": 1934,
+          "Recovered": 8913,
+          "Active": 13964
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 27017,
+          "Deaths": 2077,
+          "Recovered": 9625,
+          "Active": 15315
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 29406,
+          "Deaths": 2234,
+          "Recovered": 10457,
+          "Active": 16715
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 32332,
+          "Deaths": 2378,
+          "Recovered": 11133,
+          "Active": 18821
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 35408,
+          "Deaths": 2517,
+          "Recovered": 11679,
+          "Active": 21212
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 38309,
+          "Deaths": 2640,
+          "Recovered": 12391,
+          "Active": 23278
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 41495,
+          "Deaths": 2757,
+          "Recovered": 13911,
+          "Active": 24827
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 44605,
+          "Deaths": 2898,
+          "Recovered": 14656,
+          "Active": 27051
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 47593,
+          "Deaths": 3036,
+          "Recovered": 15473,
+          "Active": 29084
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 50468,
+          "Deaths": 3160,
+          "Recovered": 16711,
+          "Active": 30597
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 53183,
+          "Deaths": 3294,
+          "Recovered": 17935,
+          "Active": 31954
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 55743,
+          "Deaths": 3452,
+          "Recovered": 19736,
+          "Active": 32555
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-01-31T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-01T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-02T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-03T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-04T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-05T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-06T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-07T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-08T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-09T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-10T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-11T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-12T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-13T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-14T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-15T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-16T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-17T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-18T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 3,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 3
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 20,
+          "Deaths": 1,
+          "Recovered": 0,
+          "Active": 19
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 62,
+          "Deaths": 2,
+          "Recovered": 1,
+          "Active": 59
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 155,
+          "Deaths": 3,
+          "Recovered": 2,
+          "Active": 150
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 229,
+          "Deaths": 7,
+          "Recovered": 1,
+          "Active": 221
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 322,
+          "Deaths": 10,
+          "Recovered": 1,
+          "Active": 311
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 453,
+          "Deaths": 12,
+          "Recovered": 3,
+          "Active": 438
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 655,
+          "Deaths": 17,
+          "Recovered": 45,
+          "Active": 593
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 888,
+          "Deaths": 21,
+          "Recovered": 46,
+          "Active": 821
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 1128,
+          "Deaths": 29,
+          "Recovered": 46,
+          "Active": 1053
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 1694,
+          "Deaths": 34,
+          "Recovered": 83,
+          "Active": 1577
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 2036,
+          "Deaths": 52,
+          "Recovered": 149,
+          "Active": 1835
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 2502,
+          "Deaths": 79,
+          "Recovered": 160,
+          "Active": 2263
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 3089,
+          "Deaths": 107,
+          "Recovered": 276,
+          "Active": 2706
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 3858,
+          "Deaths": 148,
+          "Recovered": 414,
+          "Active": 3296
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 4636,
+          "Deaths": 197,
+          "Recovered": 523,
+          "Active": 3916
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 5883,
+          "Deaths": 233,
+          "Recovered": 589,
+          "Active": 5061
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 7375,
+          "Deaths": 366,
+          "Recovered": 622,
+          "Active": 6387
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 9172,
+          "Deaths": 463,
+          "Recovered": 724,
+          "Active": 7985
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 10149,
+          "Deaths": 631,
+          "Recovered": 724,
+          "Active": 8794
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 12462,
+          "Deaths": 827,
+          "Recovered": 1045,
+          "Active": 10590
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 12462,
+          "Deaths": 827,
+          "Recovered": 1045,
+          "Active": 10590
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 17660,
+          "Deaths": 1266,
+          "Recovered": 1439,
+          "Active": 14955
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 21157,
+          "Deaths": 1441,
+          "Recovered": 1966,
+          "Active": 17750
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 24747,
+          "Deaths": 1809,
+          "Recovered": 2335,
+          "Active": 20603
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 27980,
+          "Deaths": 2158,
+          "Recovered": 2749,
+          "Active": 23073
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 31506,
+          "Deaths": 2503,
+          "Recovered": 2941,
+          "Active": 26062
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 35713,
+          "Deaths": 2978,
+          "Recovered": 4025,
+          "Active": 28710
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 41035,
+          "Deaths": 3405,
+          "Recovered": 4440,
+          "Active": 33190
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 47021,
+          "Deaths": 4032,
+          "Recovered": 4440,
+          "Active": 38549
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 53578,
+          "Deaths": 4825,
+          "Recovered": 6072,
+          "Active": 42681
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 59138,
+          "Deaths": 5476,
+          "Recovered": 7024,
+          "Active": 46638
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 63927,
+          "Deaths": 6077,
+          "Recovered": 7432,
+          "Active": 50418
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 69176,
+          "Deaths": 6820,
+          "Recovered": 8326,
+          "Active": 54030
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 74386,
+          "Deaths": 7503,
+          "Recovered": 9362,
+          "Active": 57521
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 80589,
+          "Deaths": 8215,
+          "Recovered": 10361,
+          "Active": 62013
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 86498,
+          "Deaths": 9134,
+          "Recovered": 10950,
+          "Active": 66414
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 92472,
+          "Deaths": 10023,
+          "Recovered": 12384,
+          "Active": 70065
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 97689,
+          "Deaths": 10779,
+          "Recovered": 13030,
+          "Active": 73880
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 101739,
+          "Deaths": 11591,
+          "Recovered": 14620,
+          "Active": 75528
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 105792,
+          "Deaths": 12428,
+          "Recovered": 15729,
+          "Active": 77635
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 110574,
+          "Deaths": 13155,
+          "Recovered": 16847,
+          "Active": 80572
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 115242,
+          "Deaths": 13915,
+          "Recovered": 18278,
+          "Active": 83049
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 119827,
+          "Deaths": 14681,
+          "Recovered": 19758,
+          "Active": 85388
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 124632,
+          "Deaths": 15362,
+          "Recovered": 20996,
+          "Active": 88274
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-01T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-02T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-03T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-04T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-05T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-06T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-07T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-08T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-09T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-10T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-11T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-12T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-13T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-14T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-15T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-16T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-17T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-18T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 0
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 4
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 13,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 11
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 13
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 32,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 30
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 45,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 43
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 84,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 82
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 120,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 118
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 165,
+          "Deaths": 1,
+          "Recovered": 2,
+          "Active": 162
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 222,
+          "Deaths": 2,
+          "Recovered": 2,
+          "Active": 218
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 259,
+          "Deaths": 3,
+          "Recovered": 2,
+          "Active": 254
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 400,
+          "Deaths": 5,
+          "Recovered": 2,
+          "Active": 393
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 500,
+          "Deaths": 10,
+          "Recovered": 30,
+          "Active": 460
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 673,
+          "Deaths": 17,
+          "Recovered": 30,
+          "Active": 626
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 1073,
+          "Deaths": 28,
+          "Recovered": 32,
+          "Active": 1013
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 1695,
+          "Deaths": 35,
+          "Recovered": 32,
+          "Active": 1628
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 2277,
+          "Deaths": 54,
+          "Recovered": 183,
+          "Active": 2040
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 2277,
+          "Deaths": 55,
+          "Recovered": 183,
+          "Active": 2039
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 5232,
+          "Deaths": 133,
+          "Recovered": 193,
+          "Active": 4906
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 6391,
+          "Deaths": 195,
+          "Recovered": 517,
+          "Active": 5679
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 7798,
+          "Deaths": 289,
+          "Recovered": 517,
+          "Active": 6992
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 9942,
+          "Deaths": 342,
+          "Recovered": 530,
+          "Active": 9070
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 11748,
+          "Deaths": 533,
+          "Recovered": 1028,
+          "Active": 10187
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 13910,
+          "Deaths": 623,
+          "Recovered": 1081,
+          "Active": 12206
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 17963,
+          "Deaths": 830,
+          "Recovered": 1107,
+          "Active": 16026
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 20410,
+          "Deaths": 1043,
+          "Recovered": 1588,
+          "Active": 17779
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 25374,
+          "Deaths": 1375,
+          "Recovered": 2125,
+          "Active": 21874
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 28603,
+          "Deaths": 1756,
+          "Recovered": 2125,
+          "Active": 24722
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 35136,
+          "Deaths": 2311,
+          "Recovered": 3355,
+          "Active": 29470
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 39885,
+          "Deaths": 2808,
+          "Recovered": 3794,
+          "Active": 33283
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 49515,
+          "Deaths": 3647,
+          "Recovered": 5367,
+          "Active": 40501
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 57786,
+          "Deaths": 4365,
+          "Recovered": 7015,
+          "Active": 46406
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 65719,
+          "Deaths": 5138,
+          "Recovered": 9357,
+          "Active": 51224
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 73235,
+          "Deaths": 5982,
+          "Recovered": 12285,
+          "Active": 54968
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 80110,
+          "Deaths": 6803,
+          "Recovered": 14709,
+          "Active": 58598
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 87956,
+          "Deaths": 7716,
+          "Recovered": 16780,
+          "Active": 63460
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 95923,
+          "Deaths": 8464,
+          "Recovered": 19259,
+          "Active": 68200
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 104118,
+          "Deaths": 9387,
+          "Recovered": 22647,
+          "Active": 72084
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 112065,
+          "Deaths": 10348,
+          "Recovered": 26743,
+          "Active": 74974
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 119199,
+          "Deaths": 11198,
+          "Recovered": 30513,
+          "Active": 77488
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 126168,
+          "Deaths": 11947,
+          "Recovered": 34219,
+          "Active": 80002
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 8,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 8
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 8,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 8
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 18,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 18
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 27,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 27
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 42,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 42
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 56,
+          "Deaths": 0,
+          "Recovered": 2,
+          "Active": 54
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 90,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 87
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 114,
+          "Deaths": 1,
+          "Recovered": 3,
+          "Active": 110
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 214,
+          "Deaths": 1,
+          "Recovered": 3,
+          "Active": 210
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 268,
+          "Deaths": 1,
+          "Recovered": 3,
+          "Active": 264
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 337,
+          "Deaths": 2,
+          "Recovered": 3,
+          "Active": 332
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 374,
+          "Deaths": 2,
+          "Recovered": 3,
+          "Active": 369
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 491,
+          "Deaths": 3,
+          "Recovered": 3,
+          "Active": 485
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 652,
+          "Deaths": 4,
+          "Recovered": 4,
+          "Active": 644
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 652,
+          "Deaths": 4,
+          "Recovered": 4,
+          "Active": 644
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 1139,
+          "Deaths": 11,
+          "Recovered": 4,
+          "Active": 1124
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 1359,
+          "Deaths": 13,
+          "Recovered": 4,
+          "Active": 1342
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 2200,
+          "Deaths": 14,
+          "Recovered": 4,
+          "Active": 2182
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 2200,
+          "Deaths": 14,
+          "Recovered": 4,
+          "Active": 2182
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 2700,
+          "Deaths": 27,
+          "Recovered": 4,
+          "Active": 2669
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 3028,
+          "Deaths": 28,
+          "Recovered": 15,
+          "Active": 2985
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 4075,
+          "Deaths": 41,
+          "Recovered": 15,
+          "Active": 4019
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 5294,
+          "Deaths": 54,
+          "Recovered": 15,
+          "Active": 5225
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 6575,
+          "Deaths": 75,
+          "Recovered": 15,
+          "Active": 6485
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 7474,
+          "Deaths": 98,
+          "Recovered": 131,
+          "Active": 7245
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 8795,
+          "Deaths": 120,
+          "Recovered": 131,
+          "Active": 8544
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 9877,
+          "Deaths": 122,
+          "Recovered": 131,
+          "Active": 9624
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 10897,
+          "Deaths": 153,
+          "Recovered": 131,
+          "Active": 10613
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 11811,
+          "Deaths": 191,
+          "Recovered": 131,
+          "Active": 11489
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 12928,
+          "Deaths": 231,
+          "Recovered": 1530,
+          "Active": 11167
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 14076,
+          "Deaths": 264,
+          "Recovered": 1530,
+          "Active": 12282
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 14829,
+          "Deaths": 300,
+          "Recovered": 1595,
+          "Active": 12934
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 15922,
+          "Deaths": 359,
+          "Recovered": 1823,
+          "Active": 13740
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 16605,
+          "Deaths": 433,
+          "Recovered": 1823,
+          "Active": 14349
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 17768,
+          "Deaths": 488,
+          "Recovered": 2967,
+          "Active": 14313
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 18827,
+          "Deaths": 536,
+          "Recovered": 4013,
+          "Active": 14278
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 19606,
+          "Deaths": 591,
+          "Recovered": 4846,
+          "Active": 14169
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 20505,
+          "Deaths": 666,
+          "Recovered": 6415,
+          "Active": 13424
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 18,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 18
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 47,
+          "Deaths": 1,
+          "Recovered": 0,
+          "Active": 46
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 98,
+          "Deaths": 1,
+          "Recovered": 0,
+          "Active": 97
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 192,
+          "Deaths": 3,
+          "Recovered": 0,
+          "Active": 189
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 359,
+          "Deaths": 4,
+          "Recovered": 0,
+          "Active": 355
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 670,
+          "Deaths": 9,
+          "Recovered": 0,
+          "Active": 661
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 1236,
+          "Deaths": 30,
+          "Recovered": 0,
+          "Active": 1206
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 1529,
+          "Deaths": 37,
+          "Recovered": 0,
+          "Active": 1492
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 1872,
+          "Deaths": 44,
+          "Recovered": 0,
+          "Active": 1828
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 2433,
+          "Deaths": 59,
+          "Recovered": 26,
+          "Active": 2348
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 3629,
+          "Deaths": 75,
+          "Recovered": 26,
+          "Active": 3528
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 5698,
+          "Deaths": 92,
+          "Recovered": 42,
+          "Active": 5564
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 7402,
+          "Deaths": 108,
+          "Recovered": 70,
+          "Active": 7224
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 9217,
+          "Deaths": 131,
+          "Recovered": 105,
+          "Active": 8981
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 10827,
+          "Deaths": 168,
+          "Recovered": 162,
+          "Active": 10497
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 13531,
+          "Deaths": 214,
+          "Recovered": 243,
+          "Active": 13074
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 15679,
+          "Deaths": 277,
+          "Recovered": 333,
+          "Active": 15069
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 18135,
+          "Deaths": 356,
+          "Recovered": 415,
+          "Active": 17364
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 20921,
+          "Deaths": 425,
+          "Recovered": 484,
+          "Active": 20012
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 23934,
+          "Deaths": 501,
+          "Recovered": 786,
+          "Active": 22647
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-22T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-23T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-24T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-25T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 2
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-26T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-27T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-28T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-29T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-30T00:00:00",
+          "Confirmed": 5,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 5
+        },
+        {
+          "Country": "US",
+          "Date": "2020-01-31T00:00:00",
+          "Confirmed": 6,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 6
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-01T00:00:00",
+          "Confirmed": 8,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 8
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-02T00:00:00",
+          "Confirmed": 8,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 8
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-03T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 11
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-04T00:00:00",
+          "Confirmed": 11,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 11
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-05T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-06T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-07T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-08T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-09T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 9
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-10T00:00:00",
+          "Confirmed": 12,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 9
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-11T00:00:00",
+          "Confirmed": 13,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 10
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-12T00:00:00",
+          "Confirmed": 13,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 10
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-13T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-14T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-15T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-16T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-17T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-18T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 15,
+          "Deaths": 0,
+          "Recovered": 3,
+          "Active": 12
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 35,
+          "Deaths": 0,
+          "Recovered": 5,
+          "Active": 30
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 35,
+          "Deaths": 0,
+          "Recovered": 5,
+          "Active": 30
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 35,
+          "Deaths": 0,
+          "Recovered": 5,
+          "Active": 30
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 53,
+          "Deaths": 0,
+          "Recovered": 5,
+          "Active": 48
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 53,
+          "Deaths": 0,
+          "Recovered": 6,
+          "Active": 47
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 59,
+          "Deaths": 0,
+          "Recovered": 6,
+          "Active": 53
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 60,
+          "Deaths": 0,
+          "Recovered": 6,
+          "Active": 54
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 62,
+          "Deaths": 0,
+          "Recovered": 7,
+          "Active": 55
+        },
+        {
+          "Country": "US",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 70,
+          "Deaths": 1,
+          "Recovered": 7,
+          "Active": 62
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 76,
+          "Deaths": 1,
+          "Recovered": 7,
+          "Active": 68
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 101,
+          "Deaths": 6,
+          "Recovered": 7,
+          "Active": 88
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 122,
+          "Deaths": 7,
+          "Recovered": 8,
+          "Active": 107
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 153,
+          "Deaths": 11,
+          "Recovered": 8,
+          "Active": 134
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 221,
+          "Deaths": 12,
+          "Recovered": 8,
+          "Active": 201
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 278,
+          "Deaths": 14,
+          "Recovered": 8,
+          "Active": 256
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 417,
+          "Deaths": 17,
+          "Recovered": 8,
+          "Active": 392
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 537,
+          "Deaths": 21,
+          "Recovered": 8,
+          "Active": 508
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 605,
+          "Deaths": 22,
+          "Recovered": 8,
+          "Active": 575
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 959,
+          "Deaths": 28,
+          "Recovered": 8,
+          "Active": 923
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 1281,
+          "Deaths": 36,
+          "Recovered": 8,
+          "Active": 1237
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 1663,
+          "Deaths": 40,
+          "Recovered": 12,
+          "Active": 1611
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 2179,
+          "Deaths": 47,
+          "Recovered": 12,
+          "Active": 2120
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 2726,
+          "Deaths": 54,
+          "Recovered": 12,
+          "Active": 2660
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 3499,
+          "Deaths": 63,
+          "Recovered": 12,
+          "Active": 3424
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 4632,
+          "Deaths": 85,
+          "Recovered": 17,
+          "Active": 4530
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 6421,
+          "Deaths": 108,
+          "Recovered": 17,
+          "Active": 6296
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 7786,
+          "Deaths": 118,
+          "Recovered": 106,
+          "Active": 7562
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 13680,
+          "Deaths": 200,
+          "Recovered": 108,
+          "Active": 13372
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 19101,
+          "Deaths": 244,
+          "Recovered": 147,
+          "Active": 18710
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 25493,
+          "Deaths": 307,
+          "Recovered": 171,
+          "Active": 25015
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 33746,
+          "Deaths": 427,
+          "Recovered": 0,
+          "Active": 33319
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 43667,
+          "Deaths": 552,
+          "Recovered": 0,
+          "Active": 43115
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 53740,
+          "Deaths": 706,
+          "Recovered": 348,
+          "Active": 52686
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 65778,
+          "Deaths": 942,
+          "Recovered": 361,
+          "Active": 64475
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 83836,
+          "Deaths": 1209,
+          "Recovered": 681,
+          "Active": 81946
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 101657,
+          "Deaths": 1581,
+          "Recovered": 869,
+          "Active": 99207
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 121478,
+          "Deaths": 2026,
+          "Recovered": 1072,
+          "Active": 118380
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 140886,
+          "Deaths": 2467,
+          "Recovered": 2665,
+          "Active": 135754
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 161807,
+          "Deaths": 2978,
+          "Recovered": 5644,
+          "Active": 153185
+        },
+        {
+          "Country": "US",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 188172,
+          "Deaths": 3873,
+          "Recovered": 7024,
+          "Active": 177275
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 213372,
+          "Deaths": 4757,
+          "Recovered": 8474,
+          "Active": 200141
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 243453,
+          "Deaths": 5926,
+          "Recovered": 9001,
+          "Active": 228526
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 275586,
+          "Deaths": 7087,
+          "Recovered": 9707,
+          "Active": 258792
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 308850,
+          "Deaths": 8407,
+          "Recovered": 14652,
+          "Active": 285791
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 459,
+          "Deaths": 8,
+          "Recovered": 19,
+          "Active": 432
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 459,
+          "Deaths": 8,
+          "Recovered": 19,
+          "Active": 432
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 801,
+          "Deaths": 8,
+          "Recovered": 19,
+          "Active": 774
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 1143,
+          "Deaths": 21,
+          "Recovered": 19,
+          "Active": 1103
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 1144,
+          "Deaths": 21,
+          "Recovered": 19,
+          "Active": 1104
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 1551,
+          "Deaths": 56,
+          "Recovered": 21,
+          "Active": 1474
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 1960,
+          "Deaths": 56,
+          "Recovered": 53,
+          "Active": 1851
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 2642,
+          "Deaths": 72,
+          "Recovered": 67,
+          "Active": 2503
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 2716,
+          "Deaths": 138,
+          "Recovered": 67,
+          "Active": 2511
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 4014,
+          "Deaths": 178,
+          "Recovered": 67,
+          "Active": 3769
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 5067,
+          "Deaths": 234,
+          "Recovered": 67,
+          "Active": 4766
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 5741,
+          "Deaths": 282,
+          "Recovered": 95,
+          "Active": 5364
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 6726,
+          "Deaths": 336,
+          "Recovered": 140,
+          "Active": 6250
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 8164,
+          "Deaths": 423,
+          "Recovered": 140,
+          "Active": 7601
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 9640,
+          "Deaths": 466,
+          "Recovered": 140,
+          "Active": 9034
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 11812,
+          "Deaths": 580,
+          "Recovered": 150,
+          "Active": 11082
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 14745,
+          "Deaths": 761,
+          "Recovered": 151,
+          "Active": 13833
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 17312,
+          "Deaths": 1021,
+          "Recovered": 151,
+          "Active": 16140
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 19780,
+          "Deaths": 1231,
+          "Recovered": 151,
+          "Active": 18398
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 22453,
+          "Deaths": 1411,
+          "Recovered": 171,
+          "Active": 20871
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 25481,
+          "Deaths": 1793,
+          "Recovered": 179,
+          "Active": 23509
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 29865,
+          "Deaths": 2357,
+          "Recovered": 179,
+          "Active": 27329
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 34173,
+          "Deaths": 2926,
+          "Recovered": 192,
+          "Active": 31055
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 38689,
+          "Deaths": 3611,
+          "Recovered": 208,
+          "Active": 34870
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 42477,
+          "Deaths": 4320,
+          "Recovered": 215,
+          "Active": 37942
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-515b756b94bf143562dcb49bf5778de5",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"Date\"])", "as": "Date"},
+        {
+          "type": "fold",
+          "fields": ["Recovered", "Active", "Deaths", "Confirmed"],
+          "as": ["Type", "Count"]
+        },
+        {
+          "type": "filter",
+          "expr": "!(length(data(\"Select_store\"))) || (vlSelectionTest(\"Select_store\", datum))"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "Select_Country",
+      "init": "\"United Kingdom\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "China",
+          "France",
+          "Germany",
+          "Iran",
+          "Italy",
+          "Spain",
+          "Switzerland",
+          "Turkey",
+          "US",
+          "United Kingdom"
+        ]
+      }
+    },
+    {
+      "name": "Select",
+      "update": "vlSelectionResolve(\"Select_store\", \"union\")"
+    },
+    {
+      "name": "selector001",
+      "update": "vlSelectionResolve(\"selector001_store\", \"union\")"
+    },
+    {
+      "name": "Select_tuple",
+      "update": "Select_Country !== null ? {fields: Select_tuple_fields, values: [Select_Country]} : null"
+    },
+    {
+      "name": "Select_tuple_fields",
+      "value": [{"type": "E", "field": "Country"}]
+    },
+    {
+      "name": "Select_modify",
+      "on": [
+        {
+          "events": {"signal": "Select_tuple"},
+          "update": "modify(\"Select_store\", Select_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector001_Date",
+      "on": [
+        {
+          "events": {"signal": "selector001_translate_delta"},
+          "update": "panLinear(selector001_translate_anchor.extent_x, -selector001_translate_delta.x / width)"
+        },
+        {
+          "events": {"signal": "selector001_zoom_delta"},
+          "update": "zoomLinear(domain(\"x\"), selector001_zoom_anchor.x, selector001_zoom_delta)"
+        },
+        {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
+      ]
+    },
+    {
+      "name": "selector001_Count",
+      "on": [
+        {
+          "events": {"signal": "selector001_translate_delta"},
+          "update": "panLinear(selector001_translate_anchor.extent_y, selector001_translate_delta.y / height)"
+        },
+        {
+          "events": {"signal": "selector001_zoom_delta"},
+          "update": "zoomLinear(domain(\"y\"), selector001_zoom_anchor.y, selector001_zoom_delta)"
+        },
+        {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
+      ]
+    },
+    {
+      "name": "selector001_tuple",
+      "on": [
+        {
+          "events": [{"signal": "selector001_Date || selector001_Count"}],
+          "update": "selector001_Date && selector001_Count ? {unit: \"\", fields: selector001_tuple_fields, values: [selector001_Date,selector001_Count]} : null"
+        }
+      ]
+    },
+    {
+      "name": "selector001_tuple_fields",
+      "value": [
+        {"field": "Date", "channel": "x", "type": "R"},
+        {"field": "Count", "channel": "y", "type": "R"}
+      ]
+    },
+    {
+      "name": "selector001_translate_anchor",
+      "value": {},
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "mousedown"}],
+          "update": "{x: x(unit), y: y(unit), extent_x: domain(\"x\"), extent_y: domain(\"y\")}"
+        }
+      ]
+    },
+    {
+      "name": "selector001_translate_delta",
+      "value": {},
+      "on": [
+        {
+          "events": [
+            {
+              "source": "window",
+              "type": "mousemove",
+              "consume": true,
+              "between": [
+                {"source": "scope", "type": "mousedown"},
+                {"source": "window", "type": "mouseup"}
+              ]
+            }
+          ],
+          "update": "{x: selector001_translate_anchor.x - x(unit), y: selector001_translate_anchor.y - y(unit)}"
+        }
+      ]
+    },
+    {
+      "name": "selector001_zoom_anchor",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "update": "{x: invert(\"x\", x(unit)), y: invert(\"y\", y(unit))}"
+        }
+      ]
+    },
+    {
+      "name": "selector001_zoom_delta",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "force": true,
+          "update": "pow(1.001, event.deltaY * pow(16, event.deltaMode))"
+        }
+      ]
+    },
+    {
+      "name": "selector001_modify",
+      "on": [
+        {
+          "events": {"signal": "selector001_tuple"},
+          "update": "modify(\"selector001_store\", selector001_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_main",
+          "data": "data_0",
+          "groupby": ["Type"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "marks",
+          "type": "line",
+          "clip": true,
+          "style": ["line"],
+          "sort": {"field": "datum[\"Date\"]"},
+          "interactive": true,
+          "from": {"data": "faceted_path_main"},
+          "encode": {
+            "update": {
+              "stroke": {"scale": "color", "field": "Type"},
+              "opacity": {"value": 0.7},
+              "x": {"scale": "x", "field": "Date"},
+              "y": {"scale": "y", "field": "Count"},
+              "defined": {
+                "signal": "isValid(datum[\"Date\"]) && isFinite(+datum[\"Date\"]) && isValid(datum[\"Count\"]) && isFinite(+datum[\"Count\"])"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {"data": "data_0", "field": "Date"},
+      "domainRaw": {"signal": "selector001[\"Date\"]"},
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "Count"},
+      "domainRaw": {"signal": "selector001[\"Count\"]"},
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "data_0", "field": "Type", "sort": true},
+      "range": "category"
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "encode": {
+        "labels": {
+          "update": {"text": {"signal": "timeFormat(datum.value, '%b %d')"}}
+        }
+      },
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "stroke": "color",
+      "gradientLength": {"signal": "clamp(height, 64, 200)"},
+      "symbolType": "stroke",
+      "encode": {"symbols": {"update": {"opacity": {"value": 0.7}}}}
+    }
+  ],
+  "config": {
+    "axis": {
+      "domainColor": "lightgray",
+      "grid": false,
+      "labelFont": "Roboto Condensed",
+      "ticks": false,
+      "title": null
+    },
+    "legend": {"labelFont": "Roboto Condensed", "title": null},
+    "style": {"cell": {"strokeWidth": 0}}
+  }
+}
