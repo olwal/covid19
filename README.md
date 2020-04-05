@@ -1,6 +1,8 @@
 # COVID-19
 Data analysis and visualizations related to the COVID-19 pandemic.
-Data from John Hopkins and data preprocessing by Pascal Getreuer.
+Data from [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git) and data preprocessing by [Pascal Getreuer](https://getreuer.info/).
+
+Data visualizations by [Alex Olwal](http://www.olwal.com/).
 
 Interactive graphs: 
 - [Multi plot: Comparing countries](https://olwal.github.io/multi_plots.htm)
