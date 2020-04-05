@@ -2,8 +2,8 @@
 Data analysis and visualizations related to the COVID-19 pandemic.
 Data from John Hopkins and data preprocessing by Pascal Getreuer.
 Interactive graphs: 
-[Multi plot: Comparing countries](olwal.github.io/multi_plots.htm)
-[Country plot: Plotting curves for specific country](olwal.github.io/country_plots.htm)
+- [Multi plot: Comparing countries](https://olwal.github.io/multi_plots.htm)
+- [Country plot: Plotting curves for specific country](https://olwal.github.io/country_plots.htm)
 
 
 Plots from 2020 04 05:
