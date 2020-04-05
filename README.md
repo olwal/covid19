@@ -1,6 +1,8 @@
 # COVID-19
 Data analysis and visualizations related to the COVID-19 pandemic.
+Data from John Hopkins and data preprocessing by Pascal Getreuer.
 
+Plots from 2020 04 05:
 ![Multi plot](exports/2020_04_05/multi_plot.png)
 ![China](exports/2020_04_05/china.png)
 ![France](exports/2020_04_05/france.png)
