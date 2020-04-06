@@ -9,7 +9,7 @@ Interactive graphs:
 - [Country plot: Plotting curves for specific country](https://olwal.github.io/country_plots.htm)
 
 [![Open In 
-Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/olwal/covid19/blob/master/notebooks/covid19_visualization_sandbox.ipynb)
+Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olwal/covid19/blob/master/notebooks/covid19_visualization_sandbox.ipynb)
 
 
 Plots from 2020 04 05:
