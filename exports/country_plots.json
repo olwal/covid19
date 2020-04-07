@@ -16,9 +16,9 @@
         }
       ]
     },
-    {"name": "selector001_store"},
+    {"name": "selector065_store"},
     {
-      "name": "data-515b756b94bf143562dcb49bf5778de5",
+      "name": "data-32dbbc68961768ade0c78417b110a8da",
       "values": [
         {
           "Country": "China",
@@ -613,6 +613,22 @@
           "Active": 2267
         },
         {
+          "Country": "China",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 82602,
+          "Deaths": 3333,
+          "Recovered": 77207,
+          "Active": 2062
+        },
+        {
+          "Country": "China",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 82665,
+          "Deaths": 3335,
+          "Recovered": 77310,
+          "Active": 2020
+        },
+        {
           "Country": "France",
           "Date": "2020-01-24T00:00:00",
           "Confirmed": 2,
@@ -1189,6 +1205,22 @@
           "Active": 67702
         },
         {
+          "Country": "France",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 93773,
+          "Deaths": 8093,
+          "Recovered": 16349,
+          "Active": 69331
+        },
+        {
+          "Country": "France",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 98963,
+          "Deaths": 8926,
+          "Recovered": 17428,
+          "Active": 72609
+        },
+        {
           "Country": "Germany",
           "Date": "2020-01-28T00:00:00",
           "Confirmed": 4,
@@ -1733,6 +1765,22 @@
           "Active": 68248
         },
         {
+          "Country": "Germany",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 100123,
+          "Deaths": 1584,
+          "Recovered": 28700,
+          "Active": 69839
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 103374,
+          "Deaths": 1810,
+          "Recovered": 28700,
+          "Active": 72864
+        },
+        {
           "Country": "Iran",
           "Date": "2020-02-19T00:00:00",
           "Confirmed": 2,
@@ -2099,6 +2147,22 @@
           "Deaths": 3452,
           "Recovered": 19736,
           "Active": 32555
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 58226,
+          "Deaths": 3603,
+          "Recovered": 19736,
+          "Active": 34887
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 60500,
+          "Deaths": 3739,
+          "Recovered": 24236,
+          "Active": 32525
         },
         {
           "Country": "Italy",
@@ -2621,6 +2685,22 @@
           "Active": 88274
         },
         {
+          "Country": "Italy",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 128948,
+          "Deaths": 15887,
+          "Recovered": 21815,
+          "Active": 91246
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 132547,
+          "Deaths": 16523,
+          "Recovered": 22837,
+          "Active": 93187
+        },
+        {
           "Country": "Spain",
           "Date": "2020-02-01T00:00:00",
           "Confirmed": 1,
@@ -3133,6 +3213,22 @@
           "Active": 80002
         },
         {
+          "Country": "Spain",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 131646,
+          "Deaths": 12641,
+          "Recovered": 38080,
+          "Active": 80925
+        },
+        {
+          "Country": "Spain",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 136675,
+          "Deaths": 13341,
+          "Recovered": 40437,
+          "Active": 82897
+        },
+        {
           "Country": "Switzerland",
           "Date": "2020-02-25T00:00:00",
           "Confirmed": 1,
@@ -3453,6 +3549,22 @@
           "Active": 13424
         },
         {
+          "Country": "Switzerland",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 21100,
+          "Deaths": 715,
+          "Recovered": 6415,
+          "Active": 13970
+        },
+        {
+          "Country": "Switzerland",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 21657,
+          "Deaths": 765,
+          "Recovered": 8056,
+          "Active": 12836
+        },
+        {
           "Country": "Turkey",
           "Date": "2020-03-11T00:00:00",
           "Confirmed": 1,
@@ -3651,6 +3763,22 @@
           "Deaths": 501,
           "Recovered": 786,
           "Active": 22647
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 27069,
+          "Deaths": 574,
+          "Recovered": 1042,
+          "Active": 25453
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 30217,
+          "Deaths": 649,
+          "Recovered": 1326,
+          "Active": 28242
         },
         {
           "Country": "US",
@@ -4245,6 +4373,22 @@
           "Active": 285791
         },
         {
+          "Country": "US",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 337072,
+          "Deaths": 9619,
+          "Recovered": 17448,
+          "Active": 310005
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 366614,
+          "Deaths": 10783,
+          "Recovered": 19581,
+          "Active": 336250
+        },
+        {
           "Country": "United Kingdom",
           "Date": "2020-03-11T00:00:00",
           "Confirmed": 459,
@@ -4443,12 +4587,28 @@
           "Deaths": 4320,
           "Recovered": 215,
           "Active": 37942
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 48436,
+          "Deaths": 4943,
+          "Recovered": 229,
+          "Active": 43264
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 52279,
+          "Deaths": 5385,
+          "Recovered": 287,
+          "Active": 46607
         }
       ]
     },
     {
       "name": "data_0",
-      "source": "data-515b756b94bf143562dcb49bf5778de5",
+      "source": "data-32dbbc68961768ade0c78417b110a8da",
       "transform": [
         {"type": "formula", "expr": "toDate(datum[\"Date\"])", "as": "Date"},
         {
@@ -4495,8 +4655,8 @@
       "update": "vlSelectionResolve(\"Select_store\", \"union\")"
     },
     {
-      "name": "selector001",
-      "update": "vlSelectionResolve(\"selector001_store\", \"union\")"
+      "name": "selector065",
+      "update": "vlSelectionResolve(\"selector065_store\", \"union\")"
     },
     {
       "name": "Select_tuple",
@@ -4516,51 +4676,51 @@
       ]
     },
     {
-      "name": "selector001_Date",
+      "name": "selector065_Date",
       "on": [
         {
-          "events": {"signal": "selector001_translate_delta"},
-          "update": "panLinear(selector001_translate_anchor.extent_x, -selector001_translate_delta.x / width)"
+          "events": {"signal": "selector065_translate_delta"},
+          "update": "panLinear(selector065_translate_anchor.extent_x, -selector065_translate_delta.x / width)"
         },
         {
-          "events": {"signal": "selector001_zoom_delta"},
-          "update": "zoomLinear(domain(\"x\"), selector001_zoom_anchor.x, selector001_zoom_delta)"
+          "events": {"signal": "selector065_zoom_delta"},
+          "update": "zoomLinear(domain(\"x\"), selector065_zoom_anchor.x, selector065_zoom_delta)"
         },
         {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
       ]
     },
     {
-      "name": "selector001_Count",
+      "name": "selector065_Count",
       "on": [
         {
-          "events": {"signal": "selector001_translate_delta"},
-          "update": "panLinear(selector001_translate_anchor.extent_y, selector001_translate_delta.y / height)"
+          "events": {"signal": "selector065_translate_delta"},
+          "update": "panLinear(selector065_translate_anchor.extent_y, selector065_translate_delta.y / height)"
         },
         {
-          "events": {"signal": "selector001_zoom_delta"},
-          "update": "zoomLinear(domain(\"y\"), selector001_zoom_anchor.y, selector001_zoom_delta)"
+          "events": {"signal": "selector065_zoom_delta"},
+          "update": "zoomLinear(domain(\"y\"), selector065_zoom_anchor.y, selector065_zoom_delta)"
         },
         {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
       ]
     },
     {
-      "name": "selector001_tuple",
+      "name": "selector065_tuple",
       "on": [
         {
-          "events": [{"signal": "selector001_Date || selector001_Count"}],
-          "update": "selector001_Date && selector001_Count ? {unit: \"\", fields: selector001_tuple_fields, values: [selector001_Date,selector001_Count]} : null"
+          "events": [{"signal": "selector065_Date || selector065_Count"}],
+          "update": "selector065_Date && selector065_Count ? {unit: \"\", fields: selector065_tuple_fields, values: [selector065_Date,selector065_Count]} : null"
         }
       ]
     },
     {
-      "name": "selector001_tuple_fields",
+      "name": "selector065_tuple_fields",
       "value": [
         {"field": "Date", "channel": "x", "type": "R"},
         {"field": "Count", "channel": "y", "type": "R"}
       ]
     },
     {
-      "name": "selector001_translate_anchor",
+      "name": "selector065_translate_anchor",
       "value": {},
       "on": [
         {
@@ -4570,7 +4730,7 @@
       ]
     },
     {
-      "name": "selector001_translate_delta",
+      "name": "selector065_translate_delta",
       "value": {},
       "on": [
         {
@@ -4585,12 +4745,12 @@
               ]
             }
           ],
-          "update": "{x: selector001_translate_anchor.x - x(unit), y: selector001_translate_anchor.y - y(unit)}"
+          "update": "{x: selector065_translate_anchor.x - x(unit), y: selector065_translate_anchor.y - y(unit)}"
         }
       ]
     },
     {
-      "name": "selector001_zoom_anchor",
+      "name": "selector065_zoom_anchor",
       "on": [
         {
           "events": [{"source": "scope", "type": "wheel", "consume": true}],
@@ -4599,7 +4759,7 @@
       ]
     },
     {
-      "name": "selector001_zoom_delta",
+      "name": "selector065_zoom_delta",
       "on": [
         {
           "events": [{"source": "scope", "type": "wheel", "consume": true}],
@@ -4609,11 +4769,11 @@
       ]
     },
     {
-      "name": "selector001_modify",
+      "name": "selector065_modify",
       "on": [
         {
-          "events": {"signal": "selector001_tuple"},
-          "update": "modify(\"selector001_store\", selector001_tuple, true)"
+          "events": {"signal": "selector065_tuple"},
+          "update": "modify(\"selector065_store\", selector065_tuple, true)"
         }
       ]
     }
@@ -4664,14 +4824,14 @@
       "name": "x",
       "type": "time",
       "domain": {"data": "data_0", "field": "Date"},
-      "domainRaw": {"signal": "selector001[\"Date\"]"},
+      "domainRaw": {"signal": "selector065[\"Date\"]"},
       "range": [0, {"signal": "width"}]
     },
     {
       "name": "y",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Count"},
-      "domainRaw": {"signal": "selector001[\"Count\"]"},
+      "domainRaw": {"signal": "selector065[\"Count\"]"},
       "range": [{"signal": "height"}, 0],
       "nice": true,
       "zero": true
@@ -4684,6 +4844,19 @@
     }
   ],
   "axes": [
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
     {
       "scale": "x",
       "orient": "bottom",
@@ -4710,7 +4883,6 @@
   "legends": [
     {
       "stroke": "color",
-      "gradientLength": {"signal": "clamp(height, 64, 200)"},
       "symbolType": "stroke",
       "encode": {"symbols": {"update": {"opacity": {"value": 0.7}}}}
     }
@@ -4723,6 +4895,7 @@
       "ticks": false,
       "title": null
     },
+    "axisY": {"domainWidth": 0, "grid": true},
     "legend": {"labelFont": "Roboto Condensed", "title": null},
     "style": {"cell": {"strokeWidth": 0}}
   }
