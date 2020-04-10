@@ -3,11 +3,539 @@
   "background": "white",
   "padding": 5,
   "data": [
-    {"name": "selector063_store"},
-    {"name": "selector064_store"},
+    {"name": "selector004_store"},
+    {"name": "selector005_store"},
     {
-      "name": "data-32dbbc68961768ade0c78417b110a8da",
+      "name": "data-5e830f4d53038fbdcc443f3bfcb9a4b5",
       "values": [
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-04T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-05T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-06T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-07T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-08T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-09T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-10T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-11T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-12T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-13T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-14T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-15T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-16T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 0,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-17T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-18T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-19T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-20T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-21T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-22T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-23T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-24T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-25T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-26T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-27T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-28T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-02-29T00:00:00",
+          "Confirmed": 1,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 0
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-01T00:00:00",
+          "Confirmed": 2,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 1
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-02T00:00:00",
+          "Confirmed": 8,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 7
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-03T00:00:00",
+          "Confirmed": 13,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 12
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-04T00:00:00",
+          "Confirmed": 23,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 22
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-05T00:00:00",
+          "Confirmed": 50,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 49
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-06T00:00:00",
+          "Confirmed": 109,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 108
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-07T00:00:00",
+          "Confirmed": 169,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 168
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-08T00:00:00",
+          "Confirmed": 200,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 199
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-09T00:00:00",
+          "Confirmed": 239,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 238
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-10T00:00:00",
+          "Confirmed": 267,
+          "Deaths": 0,
+          "Recovered": 1,
+          "Active": 266
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-11T00:00:00",
+          "Confirmed": 314,
+          "Deaths": 3,
+          "Recovered": 1,
+          "Active": 310
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-12T00:00:00",
+          "Confirmed": 314,
+          "Deaths": 3,
+          "Recovered": 1,
+          "Active": 310
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-13T00:00:00",
+          "Confirmed": 559,
+          "Deaths": 3,
+          "Recovered": 1,
+          "Active": 555
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-14T00:00:00",
+          "Confirmed": 689,
+          "Deaths": 4,
+          "Recovered": 1,
+          "Active": 684
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-15T00:00:00",
+          "Confirmed": 886,
+          "Deaths": 4,
+          "Recovered": 1,
+          "Active": 881
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-16T00:00:00",
+          "Confirmed": 1058,
+          "Deaths": 5,
+          "Recovered": 1,
+          "Active": 1052
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-17T00:00:00",
+          "Confirmed": 1243,
+          "Deaths": 10,
+          "Recovered": 1,
+          "Active": 1232
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-18T00:00:00",
+          "Confirmed": 1486,
+          "Deaths": 14,
+          "Recovered": 31,
+          "Active": 1441
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-19T00:00:00",
+          "Confirmed": 1795,
+          "Deaths": 21,
+          "Recovered": 31,
+          "Active": 1743
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-20T00:00:00",
+          "Confirmed": 2257,
+          "Deaths": 37,
+          "Recovered": 1,
+          "Active": 2219
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-21T00:00:00",
+          "Confirmed": 2815,
+          "Deaths": 67,
+          "Recovered": 263,
+          "Active": 2485
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-22T00:00:00",
+          "Confirmed": 3401,
+          "Deaths": 75,
+          "Recovered": 263,
+          "Active": 3063
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-23T00:00:00",
+          "Confirmed": 3743,
+          "Deaths": 88,
+          "Recovered": 401,
+          "Active": 3254
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-24T00:00:00",
+          "Confirmed": 4269,
+          "Deaths": 122,
+          "Recovered": 461,
+          "Active": 3686
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-25T00:00:00",
+          "Confirmed": 4937,
+          "Deaths": 178,
+          "Recovered": 547,
+          "Active": 4212
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-26T00:00:00",
+          "Confirmed": 6235,
+          "Deaths": 220,
+          "Recovered": 675,
+          "Active": 5340
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-27T00:00:00",
+          "Confirmed": 7284,
+          "Deaths": 289,
+          "Recovered": 858,
+          "Active": 6137
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-28T00:00:00",
+          "Confirmed": 9134,
+          "Deaths": 353,
+          "Recovered": 1063,
+          "Active": 7718
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-29T00:00:00",
+          "Confirmed": 10836,
+          "Deaths": 431,
+          "Recovered": 1359,
+          "Active": 9046
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-30T00:00:00",
+          "Confirmed": 11899,
+          "Deaths": 513,
+          "Recovered": 1527,
+          "Active": 9859
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-03-31T00:00:00",
+          "Confirmed": 12775,
+          "Deaths": 705,
+          "Recovered": 1696,
+          "Active": 10374
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-01T00:00:00",
+          "Confirmed": 13964,
+          "Deaths": 828,
+          "Recovered": 2132,
+          "Active": 11004
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-02T00:00:00",
+          "Confirmed": 15348,
+          "Deaths": 1011,
+          "Recovered": 2495,
+          "Active": 11842
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-03T00:00:00",
+          "Confirmed": 16770,
+          "Deaths": 1143,
+          "Recovered": 2872,
+          "Active": 12755
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-04T00:00:00",
+          "Confirmed": 18431,
+          "Deaths": 1283,
+          "Recovered": 3247,
+          "Active": 13901
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-05T00:00:00",
+          "Confirmed": 19691,
+          "Deaths": 1447,
+          "Recovered": 3751,
+          "Active": 14493
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-06T00:00:00",
+          "Confirmed": 20814,
+          "Deaths": 1632,
+          "Recovered": 3986,
+          "Active": 15196
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 22194,
+          "Deaths": 2035,
+          "Recovered": 4157,
+          "Active": 16002
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 23403,
+          "Deaths": 2240,
+          "Recovered": 4681,
+          "Active": 16482
+        },
+        {
+          "Country": "Belgium",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 24983,
+          "Deaths": 2523,
+          "Recovered": 5164,
+          "Active": 17296
+        },
         {
           "Country": "China",
           "Date": "2020-01-22T00:00:00",
@@ -617,6 +1145,30 @@
           "Active": 2020
         },
         {
+          "Country": "China",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 82718,
+          "Deaths": 3335,
+          "Recovered": 77410,
+          "Active": 1973
+        },
+        {
+          "Country": "China",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 82809,
+          "Deaths": 3337,
+          "Recovered": 77567,
+          "Active": 1905
+        },
+        {
+          "Country": "China",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 82883,
+          "Deaths": 3339,
+          "Recovered": 77679,
+          "Active": 1865
+        },
+        {
           "Country": "France",
           "Date": "2020-01-24T00:00:00",
           "Confirmed": 2,
@@ -1209,6 +1761,30 @@
           "Active": 72609
         },
         {
+          "Country": "France",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 110065,
+          "Deaths": 10343,
+          "Recovered": 19523,
+          "Active": 80199
+        },
+        {
+          "Country": "France",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 113959,
+          "Deaths": 10887,
+          "Recovered": 21452,
+          "Active": 81620
+        },
+        {
+          "Country": "France",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 118781,
+          "Deaths": 12228,
+          "Recovered": 23413,
+          "Active": 83140
+        },
+        {
           "Country": "Germany",
           "Date": "2020-01-28T00:00:00",
           "Confirmed": 4,
@@ -1769,6 +2345,30 @@
           "Active": 72864
         },
         {
+          "Country": "Germany",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 107663,
+          "Deaths": 2016,
+          "Recovered": 36081,
+          "Active": 69566
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 113296,
+          "Deaths": 2349,
+          "Recovered": 46300,
+          "Active": 64647
+        },
+        {
+          "Country": "Germany",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 118181,
+          "Deaths": 2607,
+          "Recovered": 52407,
+          "Active": 63167
+        },
+        {
           "Country": "Iran",
           "Date": "2020-02-19T00:00:00",
           "Confirmed": 2,
@@ -2151,6 +2751,30 @@
           "Deaths": 3739,
           "Recovered": 24236,
           "Active": 32525
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 62589,
+          "Deaths": 3872,
+          "Recovered": 27039,
+          "Active": 31678
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 64586,
+          "Deaths": 3993,
+          "Recovered": 29812,
+          "Active": 30781
+        },
+        {
+          "Country": "Iran",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 66220,
+          "Deaths": 4110,
+          "Recovered": 32309,
+          "Active": 29801
         },
         {
           "Country": "Italy",
@@ -2689,6 +3313,30 @@
           "Active": 93187
         },
         {
+          "Country": "Italy",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 135586,
+          "Deaths": 17127,
+          "Recovered": 24392,
+          "Active": 94067
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 139422,
+          "Deaths": 17669,
+          "Recovered": 26491,
+          "Active": 95262
+        },
+        {
+          "Country": "Italy",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 143626,
+          "Deaths": 18279,
+          "Recovered": 28470,
+          "Active": 96877
+        },
+        {
           "Country": "Spain",
           "Date": "2020-02-01T00:00:00",
           "Confirmed": 1,
@@ -3217,340 +3865,28 @@
           "Active": 82897
         },
         {
-          "Country": "Switzerland",
-          "Date": "2020-02-25T00:00:00",
-          "Confirmed": 1,
-          "Deaths": 0,
-          "Recovered": 0,
-          "Active": 1
+          "Country": "Spain",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 141942,
+          "Deaths": 14045,
+          "Recovered": 43208,
+          "Active": 84689
         },
         {
-          "Country": "Switzerland",
-          "Date": "2020-02-26T00:00:00",
-          "Confirmed": 1,
-          "Deaths": 0,
-          "Recovered": 0,
-          "Active": 1
+          "Country": "Spain",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 148220,
+          "Deaths": 14792,
+          "Recovered": 48021,
+          "Active": 85407
         },
         {
-          "Country": "Switzerland",
-          "Date": "2020-02-27T00:00:00",
-          "Confirmed": 8,
-          "Deaths": 0,
-          "Recovered": 0,
-          "Active": 8
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-02-28T00:00:00",
-          "Confirmed": 8,
-          "Deaths": 0,
-          "Recovered": 0,
-          "Active": 8
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-02-29T00:00:00",
-          "Confirmed": 18,
-          "Deaths": 0,
-          "Recovered": 0,
-          "Active": 18
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-01T00:00:00",
-          "Confirmed": 27,
-          "Deaths": 0,
-          "Recovered": 0,
-          "Active": 27
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-02T00:00:00",
-          "Confirmed": 42,
-          "Deaths": 0,
-          "Recovered": 0,
-          "Active": 42
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-03T00:00:00",
-          "Confirmed": 56,
-          "Deaths": 0,
-          "Recovered": 2,
-          "Active": 54
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-04T00:00:00",
-          "Confirmed": 90,
-          "Deaths": 0,
-          "Recovered": 3,
-          "Active": 87
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-05T00:00:00",
-          "Confirmed": 114,
-          "Deaths": 1,
-          "Recovered": 3,
-          "Active": 110
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-06T00:00:00",
-          "Confirmed": 214,
-          "Deaths": 1,
-          "Recovered": 3,
-          "Active": 210
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-07T00:00:00",
-          "Confirmed": 268,
-          "Deaths": 1,
-          "Recovered": 3,
-          "Active": 264
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-08T00:00:00",
-          "Confirmed": 337,
-          "Deaths": 2,
-          "Recovered": 3,
-          "Active": 332
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-09T00:00:00",
-          "Confirmed": 374,
-          "Deaths": 2,
-          "Recovered": 3,
-          "Active": 369
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-10T00:00:00",
-          "Confirmed": 491,
-          "Deaths": 3,
-          "Recovered": 3,
-          "Active": 485
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-11T00:00:00",
-          "Confirmed": 652,
-          "Deaths": 4,
-          "Recovered": 4,
-          "Active": 644
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-12T00:00:00",
-          "Confirmed": 652,
-          "Deaths": 4,
-          "Recovered": 4,
-          "Active": 644
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-13T00:00:00",
-          "Confirmed": 1139,
-          "Deaths": 11,
-          "Recovered": 4,
-          "Active": 1124
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-14T00:00:00",
-          "Confirmed": 1359,
-          "Deaths": 13,
-          "Recovered": 4,
-          "Active": 1342
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-15T00:00:00",
-          "Confirmed": 2200,
-          "Deaths": 14,
-          "Recovered": 4,
-          "Active": 2182
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-16T00:00:00",
-          "Confirmed": 2200,
-          "Deaths": 14,
-          "Recovered": 4,
-          "Active": 2182
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-17T00:00:00",
-          "Confirmed": 2700,
-          "Deaths": 27,
-          "Recovered": 4,
-          "Active": 2669
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-18T00:00:00",
-          "Confirmed": 3028,
-          "Deaths": 28,
-          "Recovered": 15,
-          "Active": 2985
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-19T00:00:00",
-          "Confirmed": 4075,
-          "Deaths": 41,
-          "Recovered": 15,
-          "Active": 4019
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-20T00:00:00",
-          "Confirmed": 5294,
-          "Deaths": 54,
-          "Recovered": 15,
-          "Active": 5225
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-21T00:00:00",
-          "Confirmed": 6575,
-          "Deaths": 75,
-          "Recovered": 15,
-          "Active": 6485
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-22T00:00:00",
-          "Confirmed": 7474,
-          "Deaths": 98,
-          "Recovered": 131,
-          "Active": 7245
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-23T00:00:00",
-          "Confirmed": 8795,
-          "Deaths": 120,
-          "Recovered": 131,
-          "Active": 8544
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-24T00:00:00",
-          "Confirmed": 9877,
-          "Deaths": 122,
-          "Recovered": 131,
-          "Active": 9624
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-25T00:00:00",
-          "Confirmed": 10897,
-          "Deaths": 153,
-          "Recovered": 131,
-          "Active": 10613
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-26T00:00:00",
-          "Confirmed": 11811,
-          "Deaths": 191,
-          "Recovered": 131,
-          "Active": 11489
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-27T00:00:00",
-          "Confirmed": 12928,
-          "Deaths": 231,
-          "Recovered": 1530,
-          "Active": 11167
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-28T00:00:00",
-          "Confirmed": 14076,
-          "Deaths": 264,
-          "Recovered": 1530,
-          "Active": 12282
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-29T00:00:00",
-          "Confirmed": 14829,
-          "Deaths": 300,
-          "Recovered": 1595,
-          "Active": 12934
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-30T00:00:00",
-          "Confirmed": 15922,
-          "Deaths": 359,
-          "Recovered": 1823,
-          "Active": 13740
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-03-31T00:00:00",
-          "Confirmed": 16605,
-          "Deaths": 433,
-          "Recovered": 1823,
-          "Active": 14349
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-04-01T00:00:00",
-          "Confirmed": 17768,
-          "Deaths": 488,
-          "Recovered": 2967,
-          "Active": 14313
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-04-02T00:00:00",
-          "Confirmed": 18827,
-          "Deaths": 536,
-          "Recovered": 4013,
-          "Active": 14278
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-04-03T00:00:00",
-          "Confirmed": 19606,
-          "Deaths": 591,
-          "Recovered": 4846,
-          "Active": 14169
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-04-04T00:00:00",
-          "Confirmed": 20505,
-          "Deaths": 666,
-          "Recovered": 6415,
-          "Active": 13424
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-04-05T00:00:00",
-          "Confirmed": 21100,
-          "Deaths": 715,
-          "Recovered": 6415,
-          "Active": 13970
-        },
-        {
-          "Country": "Switzerland",
-          "Date": "2020-04-06T00:00:00",
-          "Confirmed": 21657,
-          "Deaths": 765,
-          "Recovered": 8056,
-          "Active": 12836
+          "Country": "Spain",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 153222,
+          "Deaths": 15447,
+          "Recovered": 52165,
+          "Active": 85610
         },
         {
           "Country": "Turkey",
@@ -3767,6 +4103,30 @@
           "Deaths": 649,
           "Recovered": 1326,
           "Active": 28242
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 34109,
+          "Deaths": 725,
+          "Recovered": 1582,
+          "Active": 31802
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 38226,
+          "Deaths": 812,
+          "Recovered": 1846,
+          "Active": 35568
+        },
+        {
+          "Country": "Turkey",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 42282,
+          "Deaths": 908,
+          "Recovered": 2142,
+          "Active": 39232
         },
         {
           "Country": "US",
@@ -4243,18 +4603,18 @@
         {
           "Country": "US",
           "Date": "2020-03-21T00:00:00",
-          "Confirmed": 25493,
+          "Confirmed": 25514,
           "Deaths": 307,
           "Recovered": 171,
-          "Active": 25015
+          "Active": 25036
         },
         {
           "Country": "US",
           "Date": "2020-03-22T00:00:00",
-          "Confirmed": 33746,
+          "Confirmed": 33848,
           "Deaths": 427,
           "Recovered": 0,
-          "Active": 33319
+          "Active": 33421
         },
         {
           "Country": "US",
@@ -4299,26 +4659,26 @@
         {
           "Country": "US",
           "Date": "2020-03-28T00:00:00",
-          "Confirmed": 121478,
+          "Confirmed": 121465,
           "Deaths": 2026,
           "Recovered": 1072,
-          "Active": 118380
+          "Active": 118367
         },
         {
           "Country": "US",
           "Date": "2020-03-29T00:00:00",
-          "Confirmed": 140886,
+          "Confirmed": 140909,
           "Deaths": 2467,
           "Recovered": 2665,
-          "Active": 135754
+          "Active": 135777
         },
         {
           "Country": "US",
           "Date": "2020-03-30T00:00:00",
-          "Confirmed": 161807,
+          "Confirmed": 161831,
           "Deaths": 2978,
           "Recovered": 5644,
-          "Active": 153185
+          "Active": 153209
         },
         {
           "Country": "US",
@@ -4339,10 +4699,10 @@
         {
           "Country": "US",
           "Date": "2020-04-02T00:00:00",
-          "Confirmed": 243453,
+          "Confirmed": 243599,
           "Deaths": 5926,
           "Recovered": 9001,
-          "Active": 228526
+          "Active": 228672
         },
         {
           "Country": "US",
@@ -4355,10 +4715,10 @@
         {
           "Country": "US",
           "Date": "2020-04-04T00:00:00",
-          "Confirmed": 308850,
+          "Confirmed": 308853,
           "Deaths": 8407,
           "Recovered": 14652,
-          "Active": 285791
+          "Active": 285794
         },
         {
           "Country": "US",
@@ -4371,10 +4731,34 @@
         {
           "Country": "US",
           "Date": "2020-04-06T00:00:00",
-          "Confirmed": 366614,
+          "Confirmed": 366667,
           "Deaths": 10783,
           "Recovered": 19581,
-          "Active": 336250
+          "Active": 336303
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 396223,
+          "Deaths": 12722,
+          "Recovered": 21763,
+          "Active": 361738
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 429052,
+          "Deaths": 14695,
+          "Recovered": 23559,
+          "Active": 390798
+        },
+        {
+          "Country": "US",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 461437,
+          "Deaths": 16478,
+          "Recovered": 25410,
+          "Active": 419549
         },
         {
           "Country": "United Kingdom",
@@ -4591,12 +4975,36 @@
           "Deaths": 5385,
           "Recovered": 287,
           "Active": 46607
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-07T00:00:00",
+          "Confirmed": 55949,
+          "Deaths": 6171,
+          "Recovered": 325,
+          "Active": 49453
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-08T00:00:00",
+          "Confirmed": 61474,
+          "Deaths": 7111,
+          "Recovered": 345,
+          "Active": 54018
+        },
+        {
+          "Country": "United Kingdom",
+          "Date": "2020-04-09T00:00:00",
+          "Confirmed": 65872,
+          "Deaths": 7993,
+          "Recovered": 359,
+          "Active": 57520
         }
       ]
     },
     {
       "name": "data_0",
-      "source": "data-32dbbc68961768ade0c78417b110a8da",
+      "source": "data-5e830f4d53038fbdcc443f3bfcb9a4b5",
       "transform": [
         {"type": "formula", "expr": "toDate(datum[\"Date\"])", "as": "Date"},
         {
@@ -4608,10 +5016,10 @@
     }
   ],
   "signals": [
-    {"name": "concat_0_childWidth", "value": 300},
-    {"name": "concat_0_childHeight", "value": 300},
-    {"name": "concat_1_childWidth", "value": 150},
-    {"name": "concat_1_childHeight", "value": 150},
+    {"name": "concat_0_childWidth", "value": 400},
+    {"name": "concat_0_childHeight", "value": 400},
+    {"name": "concat_1_childWidth", "value": 200},
+    {"name": "concat_1_childHeight", "value": 200},
     {
       "name": "unit",
       "value": {},
@@ -4620,7 +5028,7 @@
       ]
     },
     {
-      "name": "selector063_Country_legend",
+      "name": "selector004_Country_legend",
       "value": null,
       "on": [
         {
@@ -4646,24 +5054,24 @@
         },
         {
           "events": [{"source": "view", "type": "click"}],
-          "update": "!event.item || !datum ? null : selector063_Country_legend",
+          "update": "!event.item || !datum ? null : selector004_Country_legend",
           "force": true
         }
       ]
     },
     {
-      "name": "selector063",
-      "update": "vlSelectionResolve(\"selector063_store\", \"union\", true)"
+      "name": "selector004",
+      "update": "vlSelectionResolve(\"selector004_store\", \"union\", true)"
     },
     {
-      "name": "selector064",
-      "update": "{\"Deaths\": selector064_Deaths, \"Recovered\": selector064_Recovered, \"Active\": selector064_Active, \"Date\": selector064_Date, \"Confirmed\": selector064_Confirmed}"
+      "name": "selector005",
+      "update": "{\"Deaths\": selector005_Deaths, \"Recovered\": selector005_Recovered, \"Active\": selector005_Active, \"Date\": selector005_Date, \"Confirmed\": selector005_Confirmed}"
     },
-    {"name": "selector064_Deaths"},
-    {"name": "selector064_Recovered"},
-    {"name": "selector064_Active"},
-    {"name": "selector064_Date"},
-    {"name": "selector064_Confirmed"}
+    {"name": "selector005_Deaths"},
+    {"name": "selector005_Recovered"},
+    {"name": "selector005_Active"},
+    {"name": "selector005_Date"},
+    {"name": "selector005_Confirmed"}
   ],
   "layout": {"padding": 20, "columns": 1, "bounds": "full", "align": "each"},
   "marks": [
@@ -4685,15 +5093,15 @@
           },
           "signals": [
             {
-              "name": "selector063_tuple",
-              "update": "selector063_Country_legend !== null ? {fields: selector063_tuple_fields, values: [selector063_Country_legend]} : null"
+              "name": "selector004_tuple",
+              "update": "selector004_Country_legend !== null ? {fields: selector004_tuple_fields, values: [selector004_Country_legend]} : null"
             },
             {
-              "name": "selector063_tuple_fields",
+              "name": "selector004_tuple_fields",
               "value": [{"type": "E", "field": "Country"}]
             },
             {
-              "name": "selector063_toggle",
+              "name": "selector004_toggle",
               "value": false,
               "on": [
                 {
@@ -4703,24 +5111,24 @@
               ]
             },
             {
-              "name": "selector063_modify",
+              "name": "selector004_modify",
               "on": [
                 {
-                  "events": {"signal": "selector063_tuple"},
-                  "update": "modify(\"selector063_store\", selector063_toggle ? null : selector063_tuple, selector063_toggle ? null : true, selector063_toggle ? selector063_tuple : null)"
+                  "events": {"signal": "selector004_tuple"},
+                  "update": "modify(\"selector004_store\", selector004_toggle ? null : selector004_tuple, selector004_toggle ? null : true, selector004_toggle ? selector004_tuple : null)"
                 }
               ]
             },
             {
-              "name": "selector064_Deaths",
+              "name": "selector005_Deaths",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_x, -selector064_translate_delta.x / concat_0_childWidth)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_x, -selector005_translate_delta.x / concat_0_childWidth)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_0_concat_0_x\"), selector064_zoom_anchor.x, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_0_concat_0_x\"), selector005_zoom_anchor.x, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -4730,15 +5138,15 @@
               "push": "outer"
             },
             {
-              "name": "selector064_Recovered",
+              "name": "selector005_Recovered",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_y, selector064_translate_delta.y / concat_0_childHeight)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_y, selector005_translate_delta.y / concat_0_childHeight)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_0_concat_0_y\"), selector064_zoom_anchor.y, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_0_concat_0_y\"), selector005_zoom_anchor.y, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -4748,25 +5156,25 @@
               "push": "outer"
             },
             {
-              "name": "selector064_tuple",
+              "name": "selector005_tuple",
               "on": [
                 {
                   "events": [
-                    {"signal": "selector064_Deaths || selector064_Recovered"}
+                    {"signal": "selector005_Deaths || selector005_Recovered"}
                   ],
-                  "update": "selector064_Deaths && selector064_Recovered ? {unit: \"concat_0_concat_0\", fields: selector064_tuple_fields, values: [selector064_Deaths,selector064_Recovered]} : null"
+                  "update": "selector005_Deaths && selector005_Recovered ? {unit: \"concat_0_concat_0\", fields: selector005_tuple_fields, values: [selector005_Deaths,selector005_Recovered]} : null"
                 }
               ]
             },
             {
-              "name": "selector064_tuple_fields",
+              "name": "selector005_tuple_fields",
               "value": [
                 {"field": "Deaths", "channel": "x", "type": "R"},
                 {"field": "Recovered", "channel": "y", "type": "R"}
               ]
             },
             {
-              "name": "selector064_translate_anchor",
+              "name": "selector005_translate_anchor",
               "value": {},
               "on": [
                 {
@@ -4776,7 +5184,7 @@
               ]
             },
             {
-              "name": "selector064_translate_delta",
+              "name": "selector005_translate_delta",
               "value": {},
               "on": [
                 {
@@ -4791,12 +5199,12 @@
                       ]
                     }
                   ],
-                  "update": "{x: selector064_translate_anchor.x - x(unit), y: selector064_translate_anchor.y - y(unit)}"
+                  "update": "{x: selector005_translate_anchor.x - x(unit), y: selector005_translate_anchor.y - y(unit)}"
                 }
               ]
             },
             {
-              "name": "selector064_zoom_anchor",
+              "name": "selector005_zoom_anchor",
               "on": [
                 {
                   "events": [
@@ -4807,7 +5215,7 @@
               ]
             },
             {
-              "name": "selector064_zoom_delta",
+              "name": "selector005_zoom_delta",
               "on": [
                 {
                   "events": [
@@ -4819,11 +5227,11 @@
               ]
             },
             {
-              "name": "selector064_modify",
+              "name": "selector005_modify",
               "on": [
                 {
-                  "events": {"signal": "selector064_tuple"},
-                  "update": "modify(\"selector064_store\", selector064_tuple, true)"
+                  "events": {"signal": "selector005_tuple"},
+                  "update": "modify(\"selector005_store\", selector005_tuple, true)"
                 }
               ]
             }
@@ -4859,7 +5267,7 @@
                       "stroke": {"scale": "color", "field": "Country"},
                       "opacity": [
                         {
-                          "test": "!(length(data(\"selector063_store\"))) || (vlSelectionTest(\"selector063_store\", datum))",
+                          "test": "!(length(data(\"selector004_store\"))) || (vlSelectionTest(\"selector004_store\", datum))",
                           "value": 1
                         },
                         {"value": 0.2}
@@ -4929,15 +5337,15 @@
           },
           "signals": [
             {
-              "name": "selector063_tuple",
-              "update": "selector063_Country_legend !== null ? {fields: selector063_tuple_fields, values: [selector063_Country_legend]} : null"
+              "name": "selector004_tuple",
+              "update": "selector004_Country_legend !== null ? {fields: selector004_tuple_fields, values: [selector004_Country_legend]} : null"
             },
             {
-              "name": "selector063_tuple_fields",
+              "name": "selector004_tuple_fields",
               "value": [{"type": "E", "field": "Country"}]
             },
             {
-              "name": "selector063_toggle",
+              "name": "selector004_toggle",
               "value": false,
               "on": [
                 {
@@ -4947,24 +5355,24 @@
               ]
             },
             {
-              "name": "selector063_modify",
+              "name": "selector004_modify",
               "on": [
                 {
-                  "events": {"signal": "selector063_tuple"},
-                  "update": "modify(\"selector063_store\", selector063_toggle ? null : selector063_tuple, selector063_toggle ? null : true, selector063_toggle ? selector063_tuple : null)"
+                  "events": {"signal": "selector004_tuple"},
+                  "update": "modify(\"selector004_store\", selector004_toggle ? null : selector004_tuple, selector004_toggle ? null : true, selector004_toggle ? selector004_tuple : null)"
                 }
               ]
             },
             {
-              "name": "selector064_Deaths",
+              "name": "selector005_Deaths",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_x, -selector064_translate_delta.x / concat_0_childWidth)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_x, -selector005_translate_delta.x / concat_0_childWidth)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_0_concat_1_x\"), selector064_zoom_anchor.x, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_0_concat_1_x\"), selector005_zoom_anchor.x, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -4974,15 +5382,15 @@
               "push": "outer"
             },
             {
-              "name": "selector064_Active",
+              "name": "selector005_Active",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_y, selector064_translate_delta.y / concat_0_childHeight)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_y, selector005_translate_delta.y / concat_0_childHeight)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_0_concat_1_y\"), selector064_zoom_anchor.y, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_0_concat_1_y\"), selector005_zoom_anchor.y, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -4992,25 +5400,25 @@
               "push": "outer"
             },
             {
-              "name": "selector064_tuple",
+              "name": "selector005_tuple",
               "on": [
                 {
                   "events": [
-                    {"signal": "selector064_Deaths || selector064_Active"}
+                    {"signal": "selector005_Deaths || selector005_Active"}
                   ],
-                  "update": "selector064_Deaths && selector064_Active ? {unit: \"concat_0_concat_1\", fields: selector064_tuple_fields, values: [selector064_Deaths,selector064_Active]} : null"
+                  "update": "selector005_Deaths && selector005_Active ? {unit: \"concat_0_concat_1\", fields: selector005_tuple_fields, values: [selector005_Deaths,selector005_Active]} : null"
                 }
               ]
             },
             {
-              "name": "selector064_tuple_fields",
+              "name": "selector005_tuple_fields",
               "value": [
                 {"field": "Deaths", "channel": "x", "type": "R"},
                 {"field": "Active", "channel": "y", "type": "R"}
               ]
             },
             {
-              "name": "selector064_translate_anchor",
+              "name": "selector005_translate_anchor",
               "value": {},
               "on": [
                 {
@@ -5020,7 +5428,7 @@
               ]
             },
             {
-              "name": "selector064_translate_delta",
+              "name": "selector005_translate_delta",
               "value": {},
               "on": [
                 {
@@ -5035,12 +5443,12 @@
                       ]
                     }
                   ],
-                  "update": "{x: selector064_translate_anchor.x - x(unit), y: selector064_translate_anchor.y - y(unit)}"
+                  "update": "{x: selector005_translate_anchor.x - x(unit), y: selector005_translate_anchor.y - y(unit)}"
                 }
               ]
             },
             {
-              "name": "selector064_zoom_anchor",
+              "name": "selector005_zoom_anchor",
               "on": [
                 {
                   "events": [
@@ -5051,7 +5459,7 @@
               ]
             },
             {
-              "name": "selector064_zoom_delta",
+              "name": "selector005_zoom_delta",
               "on": [
                 {
                   "events": [
@@ -5063,11 +5471,11 @@
               ]
             },
             {
-              "name": "selector064_modify",
+              "name": "selector005_modify",
               "on": [
                 {
-                  "events": {"signal": "selector064_tuple"},
-                  "update": "modify(\"selector064_store\", selector064_tuple, true)"
+                  "events": {"signal": "selector005_tuple"},
+                  "update": "modify(\"selector005_store\", selector005_tuple, true)"
                 }
               ]
             }
@@ -5103,7 +5511,7 @@
                       "stroke": {"scale": "color", "field": "Country"},
                       "opacity": [
                         {
-                          "test": "!(length(data(\"selector063_store\"))) || (vlSelectionTest(\"selector063_store\", datum))",
+                          "test": "!(length(data(\"selector004_store\"))) || (vlSelectionTest(\"selector004_store\", datum))",
                           "value": 1
                         },
                         {"value": 0.2}
@@ -5177,15 +5585,15 @@
           },
           "signals": [
             {
-              "name": "selector063_tuple",
-              "update": "selector063_Country_legend !== null ? {fields: selector063_tuple_fields, values: [selector063_Country_legend]} : null"
+              "name": "selector004_tuple",
+              "update": "selector004_Country_legend !== null ? {fields: selector004_tuple_fields, values: [selector004_Country_legend]} : null"
             },
             {
-              "name": "selector063_tuple_fields",
+              "name": "selector004_tuple_fields",
               "value": [{"type": "E", "field": "Country"}]
             },
             {
-              "name": "selector063_toggle",
+              "name": "selector004_toggle",
               "value": false,
               "on": [
                 {
@@ -5195,24 +5603,24 @@
               ]
             },
             {
-              "name": "selector063_modify",
+              "name": "selector004_modify",
               "on": [
                 {
-                  "events": {"signal": "selector063_tuple"},
-                  "update": "modify(\"selector063_store\", selector063_toggle ? null : selector063_tuple, selector063_toggle ? null : true, selector063_toggle ? selector063_tuple : null)"
+                  "events": {"signal": "selector004_tuple"},
+                  "update": "modify(\"selector004_store\", selector004_toggle ? null : selector004_tuple, selector004_toggle ? null : true, selector004_toggle ? selector004_tuple : null)"
                 }
               ]
             },
             {
-              "name": "selector064_Date",
+              "name": "selector005_Date",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_x, -selector064_translate_delta.x / concat_1_childWidth)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_x, -selector005_translate_delta.x / concat_1_childWidth)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_0_x\"), selector064_zoom_anchor.x, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_0_x\"), selector005_zoom_anchor.x, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5222,15 +5630,15 @@
               "push": "outer"
             },
             {
-              "name": "selector064_Confirmed",
+              "name": "selector005_Confirmed",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_y, selector064_translate_delta.y / concat_1_childHeight)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_y, selector005_translate_delta.y / concat_1_childHeight)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_0_y\"), selector064_zoom_anchor.y, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_0_y\"), selector005_zoom_anchor.y, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5240,25 +5648,25 @@
               "push": "outer"
             },
             {
-              "name": "selector064_tuple",
+              "name": "selector005_tuple",
               "on": [
                 {
                   "events": [
-                    {"signal": "selector064_Date || selector064_Confirmed"}
+                    {"signal": "selector005_Date || selector005_Confirmed"}
                   ],
-                  "update": "selector064_Date && selector064_Confirmed ? {unit: \"concat_1_concat_0\", fields: selector064_tuple_fields, values: [selector064_Date,selector064_Confirmed]} : null"
+                  "update": "selector005_Date && selector005_Confirmed ? {unit: \"concat_1_concat_0\", fields: selector005_tuple_fields, values: [selector005_Date,selector005_Confirmed]} : null"
                 }
               ]
             },
             {
-              "name": "selector064_tuple_fields",
+              "name": "selector005_tuple_fields",
               "value": [
                 {"field": "Date", "channel": "x", "type": "R"},
                 {"field": "Confirmed", "channel": "y", "type": "R"}
               ]
             },
             {
-              "name": "selector064_translate_anchor",
+              "name": "selector005_translate_anchor",
               "value": {},
               "on": [
                 {
@@ -5268,7 +5676,7 @@
               ]
             },
             {
-              "name": "selector064_translate_delta",
+              "name": "selector005_translate_delta",
               "value": {},
               "on": [
                 {
@@ -5283,12 +5691,12 @@
                       ]
                     }
                   ],
-                  "update": "{x: selector064_translate_anchor.x - x(unit), y: selector064_translate_anchor.y - y(unit)}"
+                  "update": "{x: selector005_translate_anchor.x - x(unit), y: selector005_translate_anchor.y - y(unit)}"
                 }
               ]
             },
             {
-              "name": "selector064_zoom_anchor",
+              "name": "selector005_zoom_anchor",
               "on": [
                 {
                   "events": [
@@ -5299,7 +5707,7 @@
               ]
             },
             {
-              "name": "selector064_zoom_delta",
+              "name": "selector005_zoom_delta",
               "on": [
                 {
                   "events": [
@@ -5311,11 +5719,11 @@
               ]
             },
             {
-              "name": "selector064_modify",
+              "name": "selector005_modify",
               "on": [
                 {
-                  "events": {"signal": "selector064_tuple"},
-                  "update": "modify(\"selector064_store\", selector064_tuple, true)"
+                  "events": {"signal": "selector005_tuple"},
+                  "update": "modify(\"selector005_store\", selector005_tuple, true)"
                 }
               ]
             }
@@ -5351,7 +5759,7 @@
                       "stroke": {"scale": "color", "field": "Country"},
                       "opacity": [
                         {
-                          "test": "!(length(data(\"selector063_store\"))) || (vlSelectionTest(\"selector063_store\", datum))",
+                          "test": "!(length(data(\"selector004_store\"))) || (vlSelectionTest(\"selector004_store\", datum))",
                           "value": 1
                         },
                         {"value": 0.2}
@@ -5419,15 +5827,15 @@
           },
           "signals": [
             {
-              "name": "selector063_tuple",
-              "update": "selector063_Country_legend !== null ? {fields: selector063_tuple_fields, values: [selector063_Country_legend]} : null"
+              "name": "selector004_tuple",
+              "update": "selector004_Country_legend !== null ? {fields: selector004_tuple_fields, values: [selector004_Country_legend]} : null"
             },
             {
-              "name": "selector063_tuple_fields",
+              "name": "selector004_tuple_fields",
               "value": [{"type": "E", "field": "Country"}]
             },
             {
-              "name": "selector063_toggle",
+              "name": "selector004_toggle",
               "value": false,
               "on": [
                 {
@@ -5437,24 +5845,24 @@
               ]
             },
             {
-              "name": "selector063_modify",
+              "name": "selector004_modify",
               "on": [
                 {
-                  "events": {"signal": "selector063_tuple"},
-                  "update": "modify(\"selector063_store\", selector063_toggle ? null : selector063_tuple, selector063_toggle ? null : true, selector063_toggle ? selector063_tuple : null)"
+                  "events": {"signal": "selector004_tuple"},
+                  "update": "modify(\"selector004_store\", selector004_toggle ? null : selector004_tuple, selector004_toggle ? null : true, selector004_toggle ? selector004_tuple : null)"
                 }
               ]
             },
             {
-              "name": "selector064_Date",
+              "name": "selector005_Date",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_x, -selector064_translate_delta.x / concat_1_childWidth)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_x, -selector005_translate_delta.x / concat_1_childWidth)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_1_x\"), selector064_zoom_anchor.x, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_1_x\"), selector005_zoom_anchor.x, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5464,15 +5872,15 @@
               "push": "outer"
             },
             {
-              "name": "selector064_Active",
+              "name": "selector005_Active",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_y, selector064_translate_delta.y / concat_1_childHeight)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_y, selector005_translate_delta.y / concat_1_childHeight)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_1_y\"), selector064_zoom_anchor.y, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_1_y\"), selector005_zoom_anchor.y, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5482,25 +5890,25 @@
               "push": "outer"
             },
             {
-              "name": "selector064_tuple",
+              "name": "selector005_tuple",
               "on": [
                 {
                   "events": [
-                    {"signal": "selector064_Date || selector064_Active"}
+                    {"signal": "selector005_Date || selector005_Active"}
                   ],
-                  "update": "selector064_Date && selector064_Active ? {unit: \"concat_1_concat_1\", fields: selector064_tuple_fields, values: [selector064_Date,selector064_Active]} : null"
+                  "update": "selector005_Date && selector005_Active ? {unit: \"concat_1_concat_1\", fields: selector005_tuple_fields, values: [selector005_Date,selector005_Active]} : null"
                 }
               ]
             },
             {
-              "name": "selector064_tuple_fields",
+              "name": "selector005_tuple_fields",
               "value": [
                 {"field": "Date", "channel": "x", "type": "R"},
                 {"field": "Active", "channel": "y", "type": "R"}
               ]
             },
             {
-              "name": "selector064_translate_anchor",
+              "name": "selector005_translate_anchor",
               "value": {},
               "on": [
                 {
@@ -5510,7 +5918,7 @@
               ]
             },
             {
-              "name": "selector064_translate_delta",
+              "name": "selector005_translate_delta",
               "value": {},
               "on": [
                 {
@@ -5525,12 +5933,12 @@
                       ]
                     }
                   ],
-                  "update": "{x: selector064_translate_anchor.x - x(unit), y: selector064_translate_anchor.y - y(unit)}"
+                  "update": "{x: selector005_translate_anchor.x - x(unit), y: selector005_translate_anchor.y - y(unit)}"
                 }
               ]
             },
             {
-              "name": "selector064_zoom_anchor",
+              "name": "selector005_zoom_anchor",
               "on": [
                 {
                   "events": [
@@ -5541,7 +5949,7 @@
               ]
             },
             {
-              "name": "selector064_zoom_delta",
+              "name": "selector005_zoom_delta",
               "on": [
                 {
                   "events": [
@@ -5553,11 +5961,11 @@
               ]
             },
             {
-              "name": "selector064_modify",
+              "name": "selector005_modify",
               "on": [
                 {
-                  "events": {"signal": "selector064_tuple"},
-                  "update": "modify(\"selector064_store\", selector064_tuple, true)"
+                  "events": {"signal": "selector005_tuple"},
+                  "update": "modify(\"selector005_store\", selector005_tuple, true)"
                 }
               ]
             }
@@ -5593,7 +6001,7 @@
                       "stroke": {"scale": "color", "field": "Country"},
                       "opacity": [
                         {
-                          "test": "!(length(data(\"selector063_store\"))) || (vlSelectionTest(\"selector063_store\", datum))",
+                          "test": "!(length(data(\"selector004_store\"))) || (vlSelectionTest(\"selector004_store\", datum))",
                           "value": 1
                         },
                         {"value": 0.2}
@@ -5658,15 +6066,15 @@
           },
           "signals": [
             {
-              "name": "selector063_tuple",
-              "update": "selector063_Country_legend !== null ? {fields: selector063_tuple_fields, values: [selector063_Country_legend]} : null"
+              "name": "selector004_tuple",
+              "update": "selector004_Country_legend !== null ? {fields: selector004_tuple_fields, values: [selector004_Country_legend]} : null"
             },
             {
-              "name": "selector063_tuple_fields",
+              "name": "selector004_tuple_fields",
               "value": [{"type": "E", "field": "Country"}]
             },
             {
-              "name": "selector063_toggle",
+              "name": "selector004_toggle",
               "value": false,
               "on": [
                 {
@@ -5676,24 +6084,24 @@
               ]
             },
             {
-              "name": "selector063_modify",
+              "name": "selector004_modify",
               "on": [
                 {
-                  "events": {"signal": "selector063_tuple"},
-                  "update": "modify(\"selector063_store\", selector063_toggle ? null : selector063_tuple, selector063_toggle ? null : true, selector063_toggle ? selector063_tuple : null)"
+                  "events": {"signal": "selector004_tuple"},
+                  "update": "modify(\"selector004_store\", selector004_toggle ? null : selector004_tuple, selector004_toggle ? null : true, selector004_toggle ? selector004_tuple : null)"
                 }
               ]
             },
             {
-              "name": "selector064_Date",
+              "name": "selector005_Date",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_x, -selector064_translate_delta.x / concat_1_childWidth)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_x, -selector005_translate_delta.x / concat_1_childWidth)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_2_x\"), selector064_zoom_anchor.x, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_2_x\"), selector005_zoom_anchor.x, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5703,15 +6111,15 @@
               "push": "outer"
             },
             {
-              "name": "selector064_Deaths",
+              "name": "selector005_Deaths",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_y, selector064_translate_delta.y / concat_1_childHeight)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_y, selector005_translate_delta.y / concat_1_childHeight)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_2_y\"), selector064_zoom_anchor.y, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_2_y\"), selector005_zoom_anchor.y, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5721,25 +6129,25 @@
               "push": "outer"
             },
             {
-              "name": "selector064_tuple",
+              "name": "selector005_tuple",
               "on": [
                 {
                   "events": [
-                    {"signal": "selector064_Date || selector064_Deaths"}
+                    {"signal": "selector005_Date || selector005_Deaths"}
                   ],
-                  "update": "selector064_Date && selector064_Deaths ? {unit: \"concat_1_concat_2\", fields: selector064_tuple_fields, values: [selector064_Date,selector064_Deaths]} : null"
+                  "update": "selector005_Date && selector005_Deaths ? {unit: \"concat_1_concat_2\", fields: selector005_tuple_fields, values: [selector005_Date,selector005_Deaths]} : null"
                 }
               ]
             },
             {
-              "name": "selector064_tuple_fields",
+              "name": "selector005_tuple_fields",
               "value": [
                 {"field": "Date", "channel": "x", "type": "R"},
                 {"field": "Deaths", "channel": "y", "type": "R"}
               ]
             },
             {
-              "name": "selector064_translate_anchor",
+              "name": "selector005_translate_anchor",
               "value": {},
               "on": [
                 {
@@ -5749,7 +6157,7 @@
               ]
             },
             {
-              "name": "selector064_translate_delta",
+              "name": "selector005_translate_delta",
               "value": {},
               "on": [
                 {
@@ -5764,12 +6172,12 @@
                       ]
                     }
                   ],
-                  "update": "{x: selector064_translate_anchor.x - x(unit), y: selector064_translate_anchor.y - y(unit)}"
+                  "update": "{x: selector005_translate_anchor.x - x(unit), y: selector005_translate_anchor.y - y(unit)}"
                 }
               ]
             },
             {
-              "name": "selector064_zoom_anchor",
+              "name": "selector005_zoom_anchor",
               "on": [
                 {
                   "events": [
@@ -5780,7 +6188,7 @@
               ]
             },
             {
-              "name": "selector064_zoom_delta",
+              "name": "selector005_zoom_delta",
               "on": [
                 {
                   "events": [
@@ -5792,11 +6200,11 @@
               ]
             },
             {
-              "name": "selector064_modify",
+              "name": "selector005_modify",
               "on": [
                 {
-                  "events": {"signal": "selector064_tuple"},
-                  "update": "modify(\"selector064_store\", selector064_tuple, true)"
+                  "events": {"signal": "selector005_tuple"},
+                  "update": "modify(\"selector005_store\", selector005_tuple, true)"
                 }
               ]
             }
@@ -5832,7 +6240,7 @@
                       "stroke": {"scale": "color", "field": "Country"},
                       "opacity": [
                         {
-                          "test": "!(length(data(\"selector063_store\"))) || (vlSelectionTest(\"selector063_store\", datum))",
+                          "test": "!(length(data(\"selector004_store\"))) || (vlSelectionTest(\"selector004_store\", datum))",
                           "value": 1
                         },
                         {"value": 0.2}
@@ -5897,15 +6305,15 @@
           },
           "signals": [
             {
-              "name": "selector063_tuple",
-              "update": "selector063_Country_legend !== null ? {fields: selector063_tuple_fields, values: [selector063_Country_legend]} : null"
+              "name": "selector004_tuple",
+              "update": "selector004_Country_legend !== null ? {fields: selector004_tuple_fields, values: [selector004_Country_legend]} : null"
             },
             {
-              "name": "selector063_tuple_fields",
+              "name": "selector004_tuple_fields",
               "value": [{"type": "E", "field": "Country"}]
             },
             {
-              "name": "selector063_toggle",
+              "name": "selector004_toggle",
               "value": false,
               "on": [
                 {
@@ -5915,24 +6323,24 @@
               ]
             },
             {
-              "name": "selector063_modify",
+              "name": "selector004_modify",
               "on": [
                 {
-                  "events": {"signal": "selector063_tuple"},
-                  "update": "modify(\"selector063_store\", selector063_toggle ? null : selector063_tuple, selector063_toggle ? null : true, selector063_toggle ? selector063_tuple : null)"
+                  "events": {"signal": "selector004_tuple"},
+                  "update": "modify(\"selector004_store\", selector004_toggle ? null : selector004_tuple, selector004_toggle ? null : true, selector004_toggle ? selector004_tuple : null)"
                 }
               ]
             },
             {
-              "name": "selector064_Date",
+              "name": "selector005_Date",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_x, -selector064_translate_delta.x / concat_1_childWidth)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_x, -selector005_translate_delta.x / concat_1_childWidth)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_3_x\"), selector064_zoom_anchor.x, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_3_x\"), selector005_zoom_anchor.x, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5942,15 +6350,15 @@
               "push": "outer"
             },
             {
-              "name": "selector064_Recovered",
+              "name": "selector005_Recovered",
               "on": [
                 {
-                  "events": {"signal": "selector064_translate_delta"},
-                  "update": "panLinear(selector064_translate_anchor.extent_y, selector064_translate_delta.y / concat_1_childHeight)"
+                  "events": {"signal": "selector005_translate_delta"},
+                  "update": "panLinear(selector005_translate_anchor.extent_y, selector005_translate_delta.y / concat_1_childHeight)"
                 },
                 {
-                  "events": {"signal": "selector064_zoom_delta"},
-                  "update": "zoomLinear(domain(\"concat_1_concat_3_y\"), selector064_zoom_anchor.y, selector064_zoom_delta)"
+                  "events": {"signal": "selector005_zoom_delta"},
+                  "update": "zoomLinear(domain(\"concat_1_concat_3_y\"), selector005_zoom_anchor.y, selector005_zoom_delta)"
                 },
                 {
                   "events": [{"source": "scope", "type": "dblclick"}],
@@ -5960,25 +6368,25 @@
               "push": "outer"
             },
             {
-              "name": "selector064_tuple",
+              "name": "selector005_tuple",
               "on": [
                 {
                   "events": [
-                    {"signal": "selector064_Date || selector064_Recovered"}
+                    {"signal": "selector005_Date || selector005_Recovered"}
                   ],
-                  "update": "selector064_Date && selector064_Recovered ? {unit: \"concat_1_concat_3\", fields: selector064_tuple_fields, values: [selector064_Date,selector064_Recovered]} : null"
+                  "update": "selector005_Date && selector005_Recovered ? {unit: \"concat_1_concat_3\", fields: selector005_tuple_fields, values: [selector005_Date,selector005_Recovered]} : null"
                 }
               ]
             },
             {
-              "name": "selector064_tuple_fields",
+              "name": "selector005_tuple_fields",
               "value": [
                 {"field": "Date", "channel": "x", "type": "R"},
                 {"field": "Recovered", "channel": "y", "type": "R"}
               ]
             },
             {
-              "name": "selector064_translate_anchor",
+              "name": "selector005_translate_anchor",
               "value": {},
               "on": [
                 {
@@ -5988,7 +6396,7 @@
               ]
             },
             {
-              "name": "selector064_translate_delta",
+              "name": "selector005_translate_delta",
               "value": {},
               "on": [
                 {
@@ -6003,12 +6411,12 @@
                       ]
                     }
                   ],
-                  "update": "{x: selector064_translate_anchor.x - x(unit), y: selector064_translate_anchor.y - y(unit)}"
+                  "update": "{x: selector005_translate_anchor.x - x(unit), y: selector005_translate_anchor.y - y(unit)}"
                 }
               ]
             },
             {
-              "name": "selector064_zoom_anchor",
+              "name": "selector005_zoom_anchor",
               "on": [
                 {
                   "events": [
@@ -6019,7 +6427,7 @@
               ]
             },
             {
-              "name": "selector064_zoom_delta",
+              "name": "selector005_zoom_delta",
               "on": [
                 {
                   "events": [
@@ -6031,11 +6439,11 @@
               ]
             },
             {
-              "name": "selector064_modify",
+              "name": "selector005_modify",
               "on": [
                 {
-                  "events": {"signal": "selector064_tuple"},
-                  "update": "modify(\"selector064_store\", selector064_tuple, true)"
+                  "events": {"signal": "selector005_tuple"},
+                  "update": "modify(\"selector005_store\", selector005_tuple, true)"
                 }
               ]
             }
@@ -6071,7 +6479,7 @@
                       "stroke": {"scale": "color", "field": "Country"},
                       "opacity": [
                         {
-                          "test": "!(length(data(\"selector063_store\"))) || (vlSelectionTest(\"selector063_store\", datum))",
+                          "test": "!(length(data(\"selector004_store\"))) || (vlSelectionTest(\"selector004_store\", datum))",
                           "value": 1
                         },
                         {"value": 0.2}
@@ -6140,7 +6548,7 @@
       "name": "concat_0_concat_0_x",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Deaths"},
-      "domainRaw": {"signal": "selector064[\"Deaths\"]"},
+      "domainRaw": {"signal": "selector005[\"Deaths\"]"},
       "range": [0, {"signal": "concat_0_childWidth"}],
       "nice": true,
       "zero": false
@@ -6149,7 +6557,7 @@
       "name": "concat_0_concat_0_y",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Recovered"},
-      "domainRaw": {"signal": "selector064[\"Recovered\"]"},
+      "domainRaw": {"signal": "selector005[\"Recovered\"]"},
       "range": [{"signal": "concat_0_childHeight"}, 0],
       "nice": true,
       "zero": true
@@ -6158,7 +6566,7 @@
       "name": "concat_0_concat_1_x",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Deaths"},
-      "domainRaw": {"signal": "selector064[\"Deaths\"]"},
+      "domainRaw": {"signal": "selector005[\"Deaths\"]"},
       "range": [0, {"signal": "concat_0_childWidth"}],
       "nice": true,
       "zero": false
@@ -6167,7 +6575,7 @@
       "name": "concat_0_concat_1_y",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Active"},
-      "domainRaw": {"signal": "selector064[\"Active\"]"},
+      "domainRaw": {"signal": "selector005[\"Active\"]"},
       "range": [{"signal": "concat_0_childHeight"}, 0],
       "nice": true,
       "zero": true
@@ -6176,14 +6584,14 @@
       "name": "concat_1_concat_0_x",
       "type": "time",
       "domain": {"data": "data_0", "field": "Date"},
-      "domainRaw": {"signal": "selector064[\"Date\"]"},
+      "domainRaw": {"signal": "selector005[\"Date\"]"},
       "range": [0, {"signal": "concat_1_childWidth"}]
     },
     {
       "name": "concat_1_concat_0_y",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Confirmed"},
-      "domainRaw": {"signal": "selector064[\"Confirmed\"]"},
+      "domainRaw": {"signal": "selector005[\"Confirmed\"]"},
       "range": [{"signal": "concat_1_childHeight"}, 0],
       "nice": true,
       "zero": true
@@ -6192,14 +6600,14 @@
       "name": "concat_1_concat_1_x",
       "type": "time",
       "domain": {"data": "data_0", "field": "Date"},
-      "domainRaw": {"signal": "selector064[\"Date\"]"},
+      "domainRaw": {"signal": "selector005[\"Date\"]"},
       "range": [0, {"signal": "concat_1_childWidth"}]
     },
     {
       "name": "concat_1_concat_1_y",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Active"},
-      "domainRaw": {"signal": "selector064[\"Active\"]"},
+      "domainRaw": {"signal": "selector005[\"Active\"]"},
       "range": [{"signal": "concat_1_childHeight"}, 0],
       "nice": true,
       "zero": true
@@ -6208,14 +6616,14 @@
       "name": "concat_1_concat_2_x",
       "type": "time",
       "domain": {"data": "data_0", "field": "Date"},
-      "domainRaw": {"signal": "selector064[\"Date\"]"},
+      "domainRaw": {"signal": "selector005[\"Date\"]"},
       "range": [0, {"signal": "concat_1_childWidth"}]
     },
     {
       "name": "concat_1_concat_2_y",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Deaths"},
-      "domainRaw": {"signal": "selector064[\"Deaths\"]"},
+      "domainRaw": {"signal": "selector005[\"Deaths\"]"},
       "range": [{"signal": "concat_1_childHeight"}, 0],
       "nice": true,
       "zero": true
@@ -6224,14 +6632,14 @@
       "name": "concat_1_concat_3_x",
       "type": "time",
       "domain": {"data": "data_0", "field": "Date"},
-      "domainRaw": {"signal": "selector064[\"Date\"]"},
+      "domainRaw": {"signal": "selector005[\"Date\"]"},
       "range": [0, {"signal": "concat_1_childWidth"}]
     },
     {
       "name": "concat_1_concat_3_y",
       "type": "linear",
       "domain": {"data": "data_0", "field": "Recovered"},
-      "domainRaw": {"signal": "selector064[\"Recovered\"]"},
+      "domainRaw": {"signal": "selector005[\"Recovered\"]"},
       "range": [{"signal": "concat_1_childHeight"}, 0],
       "nice": true,
       "zero": true
@@ -6248,7 +6656,7 @@
           "update": {
             "opacity": [
               {
-                "test": "(!length(data(\"selector063_store\")) || (selector063[\"Country\"] && indexof(selector063[\"Country\"], datum.value) >= 0))",
+                "test": "(!length(data(\"selector004_store\")) || (selector004[\"Country\"] && indexof(selector004[\"Country\"], datum.value) >= 0))",
                 "value": 1
               },
               {"value": 0.35}
@@ -6261,7 +6669,7 @@
           "update": {
             "opacity": [
               {
-                "test": "(!length(data(\"selector063_store\")) || (selector063[\"Country\"] && indexof(selector063[\"Country\"], datum.value) >= 0))",
+                "test": "(!length(data(\"selector004_store\")) || (selector004[\"Country\"] && indexof(selector004[\"Country\"], datum.value) >= 0))",
                 "value": 1
               },
               {"value": 0.35}
@@ -6285,7 +6693,7 @@
       "titleFont": "Roboto Condensed",
       "titleFontWeight": "normal"
     },
-    "axisY": {"domainWidth": 0, "grid": true},
+    "axisY": {"grid": true},
     "legend": {"labelFont": "Roboto Condensed", "title": null},
     "style": {
       "cell": {"strokeWidth": 0},
