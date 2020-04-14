@@ -12,5 +12,5 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 
 
 Plots from 2020 04 13:
-[![Multi plots](exports/2020_04_13/multi_plots.png)](https://olwal.github.io/plots.htm)
-[![Country plots](exports/2020_04_13/country_plots.png)](https://olwal.github.io/plots.htm)
+[![Multi plots](exports/2020_04_13/multi_plots.svg)](https://olwal.github.io/plots.htm)
+[![Country plots](exports/2020_04_13/country_plots.svg)](https://olwal.github.io/plots.htm)
