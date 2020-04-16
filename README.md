@@ -5,7 +5,7 @@ Data from [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git) an
 Data visualizations by [Alex Olwal](http://www.olwal.com/).
 
 Interactive graphs: 
-- [Comparing countries + Plotting curves for specific country](https://olwal.github.io/plots.htm)
+- [Comparing countries + Plotting curves for specific country](https://olwal.github.io/)
 
 [![Open In 
 Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olwal/covid19/blob/master/notebooks/covid19_visualization_sandbox.ipynb)
