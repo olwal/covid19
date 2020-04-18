@@ -4,13 +4,26 @@ Data from [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git) an
 
 Data visualizations by [Alex Olwal](http://www.olwal.com/).
 
-Interactive graphs: 
-- [Comparing countries + Plotting curves for specific country](https://olwal.github.io/)
-
-[![Open In 
+## Interactive graphs: 
+[Comparing countries + Plotting curves for specific country](https://olwal.github.io/) [![Open In 
 Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olwal/covid19/blob/master/notebooks/covid19_visualization_sandbox.ipynb)
 
+## The 10 countries with largest number of confirmed cases
+[![10 largest countries multi plots](exports/current/nlargest_multi_plots.svg)](https://olwal.github.io/)
 
-Plots from 2020 04 13:
-[![Multi plots](exports/2020_04_13/multi_plots.svg)](https://olwal.github.io/plots.htm)
-[![Country plots](exports/2020_04_13/country_plots.svg)](https://olwal.github.io/plots.htm)
+## Denmark / Finland / Iceland / Norway / Sweden
+[![Nordic countries multi plots](exports/current/nordic_multi_plots.svg)](https://olwal.github.io/)
+
+Denmark
+[![Denmark](exports/current/denmark_country_plots.svg)](https://olwal.github.io/)
+
+Finland
+[![Finland](exports/current/finland_country_plots.svg)](https://olwal.github.io/)
+
+Iceland
+[![Iceland](exports/current/iceland_country_plots.svg)](https://olwal.github.io/)
+Norway
+[![Norway](exports/current/norway_country_plots.svg)](https://olwal.github.io/)
+
+Sweden
+[![Sweden](exports/current/sweden_country_plots.svg)](https://olwal.github.io/)
