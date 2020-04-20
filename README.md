@@ -10,10 +10,12 @@ Data visualizations by [Alex Olwal](http://www.olwal.com/).
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olwal/covid19/blob/master/notebooks/covid19_visualization_sandbox.ipynb)
 
 ## The 10 countries with largest number of confirmed cases
-[![10 largest countries multi plots](exports/current/nlargest_multi_plots.svg)](https://olwal.github.io/)
+[![10 largest countries multi plots](exports/current/nlargest_day_multi_plots.svg)](https://olwal.github.io/)
+[![10 largest countries multi plots](exports/current/nlargest_total_multi_plots.svg)](https://olwal.github.io/)
 
 ## Denmark / Finland / Iceland / Norway / Sweden
-[![Nordic countries multi plots](exports/current/nordic_multi_plots.svg)](https://olwal.github.io/)
+[![Nordic countries multi plots](exports/current/nordic_day_multi_plots.svg)](https://olwal.github.io/)
+[![Nordic countries multi plots](exports/current/nordic_total_multi_plots.svg)](https://olwal.github.io/)
 
 ### Denmark
 [![Denmark](exports/current/denmark_country_plots.svg)](https://olwal.github.io/)
