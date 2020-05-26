@@ -1,3 +1,6 @@
+# Alex Olwal, 2020, olwal.com
+# Class for fetching and preprocessing population and Covid19 data
+
 import pandas as pd
 
 class Data(object):
