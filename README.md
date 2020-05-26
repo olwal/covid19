@@ -1,8 +1,9 @@
 # COVID-19
 Data analysis and visualizations related to the COVID-19 pandemic.
-Data from [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git) and data preprocessing by [Pascal Getreuer](https://getreuer.info/).
 
-Data visualizations by [Alex Olwal](http://www.olwal.com/).
+Uses data from [Data Packaged Core Datasets](https://github.com/datasets/) which maintains a [population dataset](https://github.com/datasets/population) and a [COVID-19 dataset](https://github.com/datasets/covid-19), which is a cleaned and normalized version of the data from [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git).
+
+(Previously, data was loaded directly from [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git) with data preprocessing by [Pascal Getreuer](https://getreuer.info/)).
 
 ## Interactive graphs: 
 [Comparing countries + Plotting curves for specific country](https://olwal.github.io/)
