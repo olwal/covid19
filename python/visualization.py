@@ -1,3 +1,6 @@
+# Alex Olwal, 2020, olwal.com
+# Visualization functions to generate Altair charts
+
 import altair as alt
 import pandas as pd
 
