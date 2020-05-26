@@ -37,7 +37,7 @@ def exportPlots(d):
   nLargestCountry = viz.getCountryPlotsDual(d.n, d.dateRange)
 
   nordicMultiMatrix = viz.getMultiPlotsMatrix(d.nordic, d.dateRange)
-  nLargestMultiMatrix = viz.getMultiPlotsMatrix(d.nordic, d.dateRange)
+  nLargestMultiMatrix = viz.getMultiPlotsMatrix(d.n, d.dateRange)
   
   types = [ 'json', 'svg', 'html' ]
 
