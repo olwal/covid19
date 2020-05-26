@@ -1,3 +1,6 @@
+# Alex Olwal, 2020, olwal.com
+# Downloads data, generates charts and saves to disk in different formats
+
 import altair as alt
 import sys
 
