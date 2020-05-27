@@ -4,6 +4,9 @@
 import altair as alt
 import pandas as pd
 
+import altair_saver
+from altair_saver import save
+
 """## Multi-plot, comparing countries"""
 
 def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
@@ -13,7 +16,9 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
   N_SUBCHARTS = 3
   WS = WIDTH/N_SUBCHARTS
   HS = HEIGHT/N_SUBCHARTS
- 
+
+  doExportIntermediate = True
+  
   dataAverage = data.groupby('Country').rolling(window=7, on='Date').mean()
 #  data_country_diff[data_country_diff < 0] = 0
 #  data_country_diff[data_country_diff.isna()] = 0
@@ -54,10 +59,21 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
             ).interactive().properties(width = WS, height = HS)
 
     row = alt.hconcat()
-    row |= base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Confirmed', axis=alt.Axis(title=''))).properties(title='Confirmed' + suffix)
+    
+    chartConfirmed = base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Confirmed', axis=alt.Axis(title=''))).properties(title='Confirmed' + suffix)
   #  row |= base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Active', axis=alt.Axis(title='')), x=alt.X('Date', axis=alt.Axis(title=''))).properties(title='Active')
-    row |= base.encode(y=alt.Y('Deaths', axis=alt.Axis(title=''))).properties(title='Deaths' + suffix)
-    row |= base.encode(y=alt.Y('Recovered', axis=alt.Axis(title=''))).properties(title='Recovered' + suffix)
+    chartDeaths = base.encode(y=alt.Y('Deaths', axis=alt.Axis(title=''))).properties(title='Deaths' + suffix)
+    chartRecovered = base.encode(y=alt.Y('Recovered', axis=alt.Axis(title=''))).properties(title='Recovered' + suffix)
+    
+    row |= chartConfirmed
+    row |= chartDeaths
+    row |= chartRecovered
+
+    if (doExportIntermediate):
+      chartConfirmed.save('Confirmed' + str(i) + ".svg")
+      chartDeaths.save('Deaths' + str(i) + ".svg")
+      chartRecovered.save('Recovered' + str(i) + ".svg")
+    
     multiChart &= row
 
   if showVsPlots:
