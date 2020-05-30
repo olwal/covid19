@@ -17,7 +17,7 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
   WS = WIDTH/N_SUBCHARTS
   HS = HEIGHT/N_SUBCHARTS
 
-  doExportIntermediate = True
+  doExportIntermediate = False
   
   dataAverage = data.groupby('Country').rolling(window=7, on='Date').mean()
 #  data_country_diff[data_country_diff < 0] = 0
@@ -56,14 +56,15 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
 
             ).add_selection(
               selection
-            ).interactive().properties(width = WS, height = HS)
+            ).interactive(
+            )
 
     row = alt.hconcat()
     
-    chartConfirmed = base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Confirmed', axis=alt.Axis(title=''))).properties(title='Confirmed' + suffix)
+    chartConfirmed = base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Confirmed', axis=alt.Axis(title=''))).properties(title='Confirmed' + suffix, width = WS, height = HS)
   #  row |= base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Active', axis=alt.Axis(title='')), x=alt.X('Date', axis=alt.Axis(title=''))).properties(title='Active')
-    chartDeaths = base.encode(y=alt.Y('Deaths', axis=alt.Axis(title=''))).properties(title='Deaths' + suffix)
-    chartRecovered = base.encode(y=alt.Y('Recovered', axis=alt.Axis(title=''))).properties(title='Recovered' + suffix)
+    chartDeaths = base.encode(y=alt.Y('Deaths', axis=alt.Axis(title=''))).properties(title='Deaths' + suffix, width = WS, height = HS)
+    chartRecovered = base.encode(y=alt.Y('Recovered', axis=alt.Axis(title=''))).properties(title='Recovered' + suffix, width = WS, height = HS)
     
     row |= chartConfirmed
     row |= chartDeaths
@@ -85,6 +86,12 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
   return multiChart
 
 def getCountryPlotsDual(data, dateRange, index = 0):
+
+  WIDTH = 800
+  HEIGHT = WIDTH
+  N_SUBCHARTS = 2
+  WS = WIDTH/N_SUBCHARTS
+  HS = HEIGHT/N_SUBCHARTS
 
   dataDelta = data[['Date', 'Country', 'ConfirmedDelta', 'RecoveredDelta', 'DeathsDelta']]
   dataDelta = dataDelta.rename(columns={'ConfirmedDelta':'Confirmed', 'RecoveredDelta':'Recovered', 'DeathsDelta':'Deaths'})
@@ -121,7 +128,9 @@ def getCountryPlotsDual(data, dateRange, index = 0):
             selection          
           ).properties(
               title = "Total"
-          ).interactive() 
+          ).interactive(
+          ).properties(width = WS, height = HS
+          )
 
   chartDelta = alt.Chart(dataDelta).transform_fold(
             ['Recovered', 'Deaths', 'Confirmed'],
@@ -136,7 +145,9 @@ def getCountryPlotsDual(data, dateRange, index = 0):
           opacity=alt.value(0.2)
           ).transform_filter(
             selection          
-          ).interactive()
+          ).interactive(
+          ).properties(width = WS, height = HS
+          )
 
   chartDeltaAverage = alt.Chart(dataDeltaAverage).transform_fold(
             ['Recovered', 'Deaths', 'Confirmed'],
@@ -152,7 +163,9 @@ def getCountryPlotsDual(data, dateRange, index = 0):
 #            y='rolling_mean:Q'
         ).transform_filter(
             selection
-        ).interactive()
+        ).interactive(
+        ).properties(width = WS, height = HS
+        )
 
   chart7Day = chartDelta + chartDeltaAverage
 #  countryDiff_chart.data = data_countryDiff

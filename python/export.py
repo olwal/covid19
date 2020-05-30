@@ -34,6 +34,8 @@ def exportPlots(d):
     
   nordicCountry = []
 
+  print("Generating plots")
+  
   for i in range(0, 5):
     nordicCountry.append(viz.getCountryPlotsDual(d.nordic, d.dateRange, i))
 
@@ -47,7 +49,7 @@ def exportPlots(d):
 #  !rm *.json *.svg *.png *.html
 
   for suffix in types:
-    print("Exporting " + suffix)
+    print("Exporting " + suffix + "...", end='')
 
     nordicMultiMatrix.save('nordic_multi_matrix.' + suffix)
     nLargestMultiMatrix.save('nlargest_multi_matrix.' + suffix)
@@ -57,7 +59,7 @@ def exportPlots(d):
 
     nLargestCountry.save('nlargest_country_plots.' + suffix)
 
-  print("[OK]")
+    print("[OK]")
     
 nArgs = len(sys.argv)
 
