@@ -33,7 +33,7 @@ class Data(object):
     
     # Get the date for most recent data
     endDate = max(covid['Date'])  
-    startDate = pd.to_datetime(endDate) - pd.to_timedelta('30 days')
+    startDate = pd.to_datetime(endDate) - pd.to_timedelta('15 days')
     # Remove the time part and convert back to string
     startDate = str(startDate.date())
 
@@ -85,8 +85,6 @@ class Data(object):
     for column in columns:
       data[column + suffix] = data[column]
       data[column + suffixDelta] = data[column + "Delta"]
-
-      
     for country in countries:
       
       # Check there is a population entry for this country

@@ -9,21 +9,35 @@ from altair_saver import save
 
 """## Multi-plot, comparing countries"""
 
-def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
+def getMultiPlotsMatrix(data, dateRange, showVsPlots = True, doExportIntermediate = False):
+
+  print ("MultiPlotsMatrix, Date range: " + str(dateRange[0]) + ":" + str(dateRange[1]))
 
   WIDTH = 800
   HEIGHT = WIDTH
   N_SUBCHARTS = 3
   WS = WIDTH/N_SUBCHARTS
   HS = HEIGHT/N_SUBCHARTS
-
-  doExportIntermediate = False
   
   dataAverage = data.groupby('Country').rolling(window=7, on='Date').mean()
 #  data_country_diff[data_country_diff < 0] = 0
 #  data_country_diff[data_country_diff.isna()] = 0
 #  data_country_diff = data_country_diff.droplevel(0) # remove duplicate Country index created by groupby
   dataAverage = dataAverage.reset_index()
+
+  # Clip negative values to 0
+  dataAverage['Confirmed'] = dataAverage['Confirmed'].clip(lower=0)
+  dataAverage['Deaths'] = dataAverage['Deaths'].clip(lower=0)
+  dataAverage['Recovered'] = dataAverage['Recovered'].clip(lower=0)
+  dataAverage['ConfirmedDelta'] = dataAverage['ConfirmedDelta'].clip(lower=0)
+  dataAverage['DeathsDelta'] = dataAverage['DeathsDelta'].clip(lower=0)
+  dataAverage['RecoveredDelta'] = dataAverage['RecoveredDelta'].clip(lower=0)
+  dataAverage['ConfirmedDelta/M'] = dataAverage['ConfirmedDelta/M'].clip(lower=0)
+  dataAverage['DeathsDelta/M'] = dataAverage['DeathsDelta/M'].clip(lower=0)
+  dataAverage['RecoveredDelta/M'] = dataAverage['RecoveredDelta/M'].clip(lower=0)
+  dataAverage['Confirmed/M'] = dataAverage['Confirmed/M'].clip(lower=0)
+  dataAverage['Deaths/M'] = dataAverage['Deaths/M'].clip(lower=0)
+  dataAverage['Recovered/M'] = dataAverage['Recovered/M'].clip(lower=0)
   
   dataAverageM = dataAverage[['Date', 'Country', 'ConfirmedDelta/M', 'RecoveredDelta/M', 'DeathsDelta/M']]
   dataAverageM = dataAverageM.rename(columns={'ConfirmedDelta/M':'Confirmed', 'RecoveredDelta/M':'Recovered', 'DeathsDelta/M':'Deaths'})
@@ -40,7 +54,9 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
   multiChart = alt.vconcat()
 
   dataSources = [ dataAverageM, dataAverage, dataM, data ]
-  suffixes = [ "/7-day average/million people", "/7-day average", " (total)/million people", " (total)" ]
+  updated =  "[" + str(dateRange[1]) + "]"
+  suffixes = [ "/7-day average/million people\n", "/7-day average", " (total)/million people", " (total)" ]
+  types = ['Confirmed', 'Deaths', 'Recovered']
 
   for i, data in enumerate(dataSources):
 
@@ -61,19 +77,16 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
 
     row = alt.hconcat()
     
-    chartConfirmed = base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Confirmed', axis=alt.Axis(title=''))).properties(title='Confirmed' + suffix, width = WS, height = HS)
-  #  row |= base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y('Active', axis=alt.Axis(title='')), x=alt.X('Date', axis=alt.Axis(title=''))).properties(title='Active')
-    chartDeaths = base.encode(y=alt.Y('Deaths', axis=alt.Axis(title=''))).properties(title='Deaths' + suffix, width = WS, height = HS)
-    chartRecovered = base.encode(y=alt.Y('Recovered', axis=alt.Axis(title=''))).properties(title='Recovered' + suffix, width = WS, height = HS)
     
-    row |= chartConfirmed
-    row |= chartDeaths
-    row |= chartRecovered
-
-    if (doExportIntermediate):
-      chartConfirmed.save('Confirmed' + str(i) + ".svg")
-      chartDeaths.save('Deaths' + str(i) + ".svg")
-      chartRecovered.save('Recovered' + str(i) + ".svg")
+    for type in types:
+      title = [ type + suffix, updated ]
+      chart = base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y(type, axis=alt.Axis(title=''))).properties(title=title, width = WS, height = HS)
+      row |= chart
+      
+      if (doExportIntermediate):
+        filename = (type + "_" + str(i) + ".svg").lower()
+        print ('Saving: ' + filename)
+        chart.save(filename)
     
     multiChart &= row
 
@@ -87,12 +100,16 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True):
 
 def getCountryPlotsDual(data, dateRange, index = 0):
 
+  print ("CountryPlotsDual, Date range: " + str(dateRange[0]) + ":" + str(dateRange[1]))
+
   WIDTH = 800
   HEIGHT = WIDTH
   N_SUBCHARTS = 2
   WS = WIDTH/N_SUBCHARTS
   HS = HEIGHT/N_SUBCHARTS
 
+  updated = "[" + str(dateRange[1]) + "]"
+  
   dataDelta = data[['Date', 'Country', 'ConfirmedDelta', 'RecoveredDelta', 'DeathsDelta']]
   dataDelta = dataDelta.rename(columns={'ConfirmedDelta':'Confirmed', 'RecoveredDelta':'Recovered', 'DeathsDelta':'Deaths'})
 
@@ -127,7 +144,7 @@ def getCountryPlotsDual(data, dateRange, index = 0):
           ).transform_filter(
             selection          
           ).properties(
-              title = "Total"
+              title = [ "Total", updated ]
           ).interactive(
           ).properties(width = WS, height = HS
           )
@@ -169,7 +186,7 @@ def getCountryPlotsDual(data, dateRange, index = 0):
 
   chart7Day = chartDelta + chartDeltaAverage
 #  countryDiff_chart.data = data_countryDiff
-  chart7Day.title = "7-day average (Daily values in light color)"
+  chart7Day.title = [ "7-day average (light color: daily values)", updated ]
 
   chart = chart7Day | chartTotal
 
