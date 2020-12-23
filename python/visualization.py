@@ -98,6 +98,81 @@ def getMultiPlotsMatrix(data, dateRange, showVsPlots = True, doExportIntermediat
    
   return multiChart
 
+def getMultiPlotsMatrixDeaths(data, dateRange, width = 800, height = 600, showVsPlots = False, doExportIntermediate = False):
+
+  print ("MultiPlotsMatrix, Date range: " + str(dateRange[0]) + ":" + str(dateRange[1]))
+
+  WIDTH = width
+  HEIGHT = height
+  N_SUBCHARTS = 3
+  WS = WIDTH
+  HS = HEIGHT/N_SUBCHARTS
+  
+  dataAverage = data.groupby('Country').rolling(window=7, on='Date').mean()
+#  data_country_diff[data_country_diff < 0] = 0
+#  data_country_diff[data_country_diff.isna()] = 0
+#  data_country_diff = data_country_diff.droplevel(0) # remove duplicate Country index created by groupby
+  dataAverage = dataAverage.reset_index()
+
+  # Clip negative values to 0
+  dataAverage['Deaths'] = dataAverage['Deaths'].clip(lower=0)
+  dataAverage['DeathsDelta'] = dataAverage['DeathsDelta'].clip(lower=0)
+  dataAverage['DeathsDelta/M'] = dataAverage['DeathsDelta/M'].clip(lower=0)
+  dataAverage['Deaths/M'] = dataAverage['Deaths/M'].clip(lower=0)
+  
+  dataAverageM = dataAverage[['Date', 'Country', 'DeathsDelta/M']]
+  dataAverageM = dataAverageM.rename(columns={'DeathsDelta/M':'Deaths'})
+   
+  dataAverage = dataAverage[['Date', 'Country', 'DeathsDelta']]
+  dataAverage = dataAverage.rename(columns={'DeathsDelta':'Deaths'})
+   
+  dataM = data[['Date', 'Country', 'Deaths/M']]
+  dataM = dataM.rename(columns={'Deaths/M':'Deaths'})
+ 
+#  selection = alt.selection_single(on='mouseover', fields=['Country'], nearest=True)#, bind='legend')
+  selection = alt.selection_multi(fields=['Country'], bind='legend')
+
+  multiChart = alt.vconcat()
+
+  dataSources = [ dataAverageM, dataM ]
+  updated =  "[" + str(dateRange[1]) + "]"
+  calculations = [ "7-day average/million people", "Total/million people", " (total)" ]
+  types = ['Deaths']
+
+  for i, data in enumerate(dataSources):
+
+    # Create the base chart
+    base = alt.Chart(data).mark_line().encode( 
+            color='Country',
+            opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
+            tooltip = ['Country', 'Date', 'Deaths'],
+            #x = alt.X('Date', axis=alt.Axis(title=''))
+            x = alt.X('Date', axis=alt.Axis(title=''), scale=alt.Scale(domain=dateRange))
+
+            ).add_selection(
+              selection
+            ).interactive(
+                bind_y = False
+            )
+
+    row = alt.hconcat()
+        
+    for type in types:     
+      dateString = "(" + dateRange[0].replace("-", " ") + " - " + dateRange[1].replace("-", " ") + ")"
+      title = [ calculations[i], dateString ]
+      chart = base.encode(opacity=alt.condition(selection, alt.value(1), alt.value(0.2)), y=alt.Y(type, axis=alt.Axis(title=''))).properties(title=title, width = WS, height = HS)
+      row |= chart
+      
+      if (doExportIntermediate):
+        filename = (type + "_" + str(i) + ".svg").lower()
+        print ('Saving: ' + filename)
+        chart.save(filename)
+    
+    multiChart &= row
+   
+  return multiChart
+
+
 def getCountryPlotsDual(data, dateRange, index = 0):
 
   print ("CountryPlotsDual, Date range: " + str(dateRange[0]) + ":" + str(dateRange[1]))
@@ -222,6 +297,9 @@ def activateTheme(viz):
   alt.themes.enable('olwal')
   
 def olwalTheme():
+
+  font = "Roboto Condensed"
+    
   return {
     'config': {
       'view': {
@@ -231,8 +309,8 @@ def olwalTheme():
           'grid': False,
           'ticks': False,
           'domainColor': 'lightgray',
-          'labelFont': 'Roboto Condensed',
-          'titleFont': 'Roboto Condensed',
+          'labelFont': font,
+          'titleFont': font,
           'titleFontWeight': 'normal',
       },
       'axisY': {
@@ -247,11 +325,11 @@ def olwalTheme():
           'titleY': -11,       
       },
       'title': {
-        'font': 'Roboto Condensed',
+        'font': font,
         'fontWeight': 'normal'
       },
       'legend': {
-        'labelFont': 'Roboto Condensed',
+        'labelFont': font,
         'title': None
       }
     }

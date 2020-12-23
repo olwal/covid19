@@ -48,12 +48,19 @@ def exportPlots(d):
 
 #  !rm *.json *.svg *.png *.html
 
+  nLargestMatrixDeaths = viz.getMultiPlotsMatrixDeaths(d.n, ['2020-03-01', d.dateRange[1]], 800, 600 ) | viz.getMultiPlotsMatrixDeaths(d.n, d.dateRange, 400, 600 )
+  nordicLargestMatrixDeaths = viz.getMultiPlotsMatrixDeaths(d.nordic, ['2020-03-01', d.dateRange[1]], 800, 600 ) | viz.getMultiPlotsMatrixDeaths(d.nordic, d.dateRange, 400, 600 )
+
   for suffix in types:
     print("Exporting " + suffix + "...", end='')
 
     nordicMultiMatrix.save('nordic_multi_matrix.' + suffix)
     nLargestMultiMatrix.save('nlargest_multi_matrix.' + suffix)
 
+    nordicMatrixDeaths.save('nordic_matrix_d.' + suffix)
+    nLargestMatrixDeaths.save('nlargest_multi_matrix.' + suffix)
+    
+    
     for i, c in enumerate(nordicCountry):
       c.save(d.NORDIC_COUNTRIES[i].lower() + '_country_plots.' + suffix)
 
