@@ -136,7 +136,7 @@ def getMultiPlotsMatrixDeaths(data, dateRange, width = 800, height = 600, showVs
 
   dataSources = [ dataAverageM, dataM ]
   updated =  "[" + str(dateRange[1]) + "]"
-  calculations = [ "7-day average/million people", "Total/million people", " (total)" ]
+  calculations = [ "Deaths | 7-day average/million people", "Deaths | Total/million people", " (total)" ]
   types = ['Deaths']
 
   for i, data in enumerate(dataSources):
