@@ -61,7 +61,10 @@ def exportPlots(d):
     nLargestMatrixDeaths.save('nlargest_matrix_d.' + suffix)
     
     for i, c in enumerate(nordicCountry):
-      c.save(d.NORDIC_COUNTRIES[i].lower() + '_country_plots.' + suffix)
+#      c.save(d.NORDIC_COUNTRIES[i].lower() + '_country_plots.' + suffix)
+      nordicFile = (d.NORDIC_COUNTRIES[i].lower() + '_country_plots.' + suffix)
+      print('[' + nordicFile + ']')
+      c.save(nordicFile)
 
     nLargestCountry.save('nlargest_country_plots.' + suffix)
 

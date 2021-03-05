@@ -15,3 +15,4 @@ These plots compare reported COVID-19 fatalities. Other plots over reported case
 
 ## Denmark / Finland / Iceland / Norway / Sweden
 [![Nordic countries multi plots](exports/current/nordic_matrix_d.svg)](https://olwal.github.io/)
+
